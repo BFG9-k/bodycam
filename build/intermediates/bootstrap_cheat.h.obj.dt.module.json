@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "..\\build\\intermediates\\bootstrap_cheat.obj",
+            "outputs": [
+                "..\\build\\intermediates\\bootstrap_cheat.h.obj.dt.module.json",
+                "..\\build\\intermediates\\bootstrap_cheat.h.obj.dt.d.json"
+            ],
+            "requires": []
+        }
+    ]
+}
