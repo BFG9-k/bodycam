@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "..\\build\\intermediates\\esp.obj",
+            "outputs": [
+                "..\\build\\intermediates\\esp.cpp.obj.dt.module.json",
+                "..\\build\\intermediates\\esp.cpp.obj.dt.d.json"
+            ],
+            "requires": []
+        }
+    ]
+}

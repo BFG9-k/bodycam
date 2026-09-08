@@ -170,7 +170,11 @@
     <ClInclude Include="core\thirdparty\minhook\hde\table64.h" />
     <ClInclude Include="core\thirdparty\minhook\minhook.h" />
     <ClInclude Include="core\thirdparty\minhook\trampoline.h" />
+    <ClInclude Include="core\thirdparty\MonkeGUI.h" />
+    <ClInclude Include="core\thirdparty\MonkeInput.h" />
     <ClInclude Include="core\utils\logger\logger.h" />
+    <ClInclude Include="game\features\esp\esp.h" />
+    <ClInclude Include="game\features\features.h" />
     <ClInclude Include="game\hooked\hooked.h" />
     <ClInclude Include="game\sdk\PropertyFixup.hpp" />
     <ClInclude Include="game\sdk\SDK.hpp" />
@@ -196,6 +200,7 @@
     <ClCompile Include="core\thirdparty\minhook\trampoline.c" />
     <ClCompile Include="core\utils\logger\logger.cpp" />
     <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="game\features\esp\esp.cpp" />
     <ClCompile Include="game\hooked\hooked.cpp" />
     <ClCompile Include="game\sdk\SDK\Basic.cpp" />
     <ClCompile Include="game\sdk\SDK\Bodycam_functions.cpp" />

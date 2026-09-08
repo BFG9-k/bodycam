@@ -90,6 +90,18 @@
     <ClInclude Include="game\hooked\hooked.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="game\features\features.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="game\features\esp\esp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="core\thirdparty\MonkeGUI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="core\thirdparty\MonkeInput.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="dllmain.cpp">
@@ -132,6 +144,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="game\hooked\hooked.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="game\features\esp\esp.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

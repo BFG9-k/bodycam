@@ -1,0 +1,15 @@
+C:\Users\Admin\source\repos\bodycam\bodycam\core\bootstrap_cheat.cpp;C:\Users\Admin\source\repos\bodycam\build\intermediates\bootstrap_cheat.obj
+C:\Users\Admin\source\repos\bodycam\bodycam\core\thirdparty\minhook\buffer.c;C:\Users\Admin\source\repos\bodycam\build\intermediates\buffer.obj
+C:\Users\Admin\source\repos\bodycam\bodycam\core\thirdparty\minhook\hde\hde32.c;C:\Users\Admin\source\repos\bodycam\build\intermediates\hde32.obj
+C:\Users\Admin\source\repos\bodycam\bodycam\core\thirdparty\minhook\hde\hde64.c;C:\Users\Admin\source\repos\bodycam\build\intermediates\hde64.obj
+C:\Users\Admin\source\repos\bodycam\bodycam\core\thirdparty\minhook\hook.c;C:\Users\Admin\source\repos\bodycam\build\intermediates\hook.obj
+C:\Users\Admin\source\repos\bodycam\bodycam\core\thirdparty\minhook\trampoline.c;C:\Users\Admin\source\repos\bodycam\build\intermediates\trampoline.obj
+C:\Users\Admin\source\repos\bodycam\bodycam\core\utils\logger\logger.cpp;C:\Users\Admin\source\repos\bodycam\build\intermediates\logger.obj
+C:\Users\Admin\source\repos\bodycam\bodycam\dllmain.cpp;C:\Users\Admin\source\repos\bodycam\build\intermediates\dllmain.obj
+C:\Users\Admin\source\repos\bodycam\bodycam\game\features\esp\esp.cpp;C:\Users\Admin\source\repos\bodycam\build\intermediates\esp.obj
+C:\Users\Admin\source\repos\bodycam\bodycam\game\hooked\hooked.cpp;C:\Users\Admin\source\repos\bodycam\build\intermediates\hooked.obj
+C:\Users\Admin\source\repos\bodycam\bodycam\game\sdk\SDK\Basic.cpp;C:\Users\Admin\source\repos\bodycam\build\intermediates\Basic.obj
+C:\Users\Admin\source\repos\bodycam\bodycam\game\sdk\SDK\Bodycam_functions.cpp;C:\Users\Admin\source\repos\bodycam\build\intermediates\Bodycam_functions.obj
+C:\Users\Admin\source\repos\bodycam\bodycam\game\sdk\SDK\Bodycam_Player_functions.cpp;C:\Users\Admin\source\repos\bodycam\build\intermediates\Bodycam_Player_functions.obj
+C:\Users\Admin\source\repos\bodycam\bodycam\game\sdk\SDK\CoreUObject_functions.cpp;C:\Users\Admin\source\repos\bodycam\build\intermediates\CoreUObject_functions.obj
+C:\Users\Admin\source\repos\bodycam\bodycam\game\sdk\SDK\Engine_functions.cpp;C:\Users\Admin\source\repos\bodycam\build\intermediates\Engine_functions.obj
