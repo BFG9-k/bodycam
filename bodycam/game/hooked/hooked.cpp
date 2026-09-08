@@ -11,9 +11,9 @@ void game::c_hooked::apply( )
 {
 	MH_Initialize( );
 
-	const SDK::UGameViewportClient* local_viewport_client = SDK::UWorld::GetWorld( )->OwningGameInstance->LocalPlayers[ 0 ]->ViewportClient;
-	void* const postrender = reinterpret_cast< void** >( local_viewport_client->VTable )[ 115 ];
-	MH_CreateHook( postrender, &hk_PostRender, reinterpret_cast< void** >( &o_PostRender ) );
+	const SDK::UGameViewportClient* viewport_client = SDK::UWorld::GetWorld( )->OwningGameInstance->LocalPlayers[ 0 ]->ViewportClient;
+	void* const post_render = reinterpret_cast< void** >( viewport_client->VTable )[ 115 ];
+	MH_CreateHook( post_render, &hk_PostRender, reinterpret_cast< void** >( &o_PostRender ) );
 
 	MH_EnableHook( MH_ALL_HOOKS );
 }

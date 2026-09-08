@@ -2,19 +2,19 @@
 
 void features::c_esp::process( SDK::UCanvas* Canvas )
 {
-  SDK::UWorld* const World = SDK::UWorld::GetWorld( );
-  if ( !World )
+  SDK::UWorld* const world = SDK::UWorld::GetWorld( );
+  if ( !world )
     return;
 
-  SDK::UGameInstance* const GameInstance = World->OwningGameInstance;
-  if ( !GameInstance || !GameInstance->LocalPlayers[ 0 ] )
+  SDK::UGameInstance* const game_istance = world->OwningGameInstance;
+  if ( !game_istance || !game_istance->LocalPlayers[ 0 ] )
     return;
 
-  SDK::APlayerController* const PlayerController = GameInstance->LocalPlayers[ 0 ]->PlayerController;
-  if ( !PlayerController )
+  SDK::APlayerController* const local_controller = game_istance->LocalPlayers[ 0 ]->PlayerController;
+  if ( !local_controller )
     return;
 
-  for ( const auto& current_actor : World->PersistentLevel->Actors )
+  for ( const auto& current_actor : world->PersistentLevel->Actors )
   {
     if ( !current_actor )
       continue;
@@ -22,14 +22,14 @@ void features::c_esp::process( SDK::UCanvas* Canvas )
     if ( !current_actor->IsA( SDK::ABodycamCharacter::StaticClass( ) ) )
       continue;
 
-    SDK::ABodycamCharacter* const NPC = static_cast< SDK::ABodycamCharacter* >( current_actor );
-    if ( !NPC )
+    SDK::ABodycamCharacter* const player = static_cast< SDK::ABodycamCharacter* >( current_actor );
+    if ( !player )
       continue;
 
-    if ( !NPC->IsCharacterAlive( ) )
+    if ( !player->IsCharacterAlive( ) )
       continue;
 
-    if ( NPC == PlayerController->AcknowledgedPawn )
+    if ( player == local_controller->AcknowledgedPawn )
       continue;
 
     const SDK::FVector actor_location = current_actor->RootComponent->RelativeLocation;
@@ -50,9 +50,9 @@ void features::c_esp::process( SDK::UCanvas* Canvas )
 
       Canvas->K2_DrawBox( box_position, box_size, 1.5f, SDK::FLinearColor{ 1.f, 1.f, 1.f, 1.f } );
 
-      if ( NPC->PlayerState )
+      if ( player->PlayerState )
       {
-        const SDK::FString player_name = NPC->PlayerState->GetPlayerName( );
+        const SDK::FString player_name = player->PlayerState->GetPlayerName( );
 
         const SDK::FVector2D text_postition = { top_screen.X, top_screen.Y - 15.f };
         const SDK::FLinearColor text_color = { 1.f, 1.f, 1.f, 1.f };
@@ -60,10 +60,10 @@ void features::c_esp::process( SDK::UCanvas* Canvas )
         Canvas->K2_DrawText( SDK::UEngine::GetEngine( )->SmallFont, player_name, text_postition, { 1.f, 1.f }, text_color, 0.f, { 0.f, 0.f, 0.f, 1.f }, { 1.f, 1.f }, true, false, true, { 0.f, 0.f, 0.f, 1.f } );
       }
 
-      if ( NPC->CharacterSet )
+      if ( player->CharacterSet )
       {
-        const float current_hp = NPC->CharacterSet->Health.CurrentValue;
-        const float max_hp = NPC->CharacterSet->MaxHealth.CurrentValue;
+        const float current_hp = player->CharacterSet->Health.CurrentValue;
+        const float max_hp = player->CharacterSet->MaxHealth.CurrentValue;
         
         float hp_percentage = current_hp / max_hp; hp_percentage = max( 0.0f, min( 1.0f, hp_percentage ) );
 

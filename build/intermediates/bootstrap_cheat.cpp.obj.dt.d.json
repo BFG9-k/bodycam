@@ -218,6 +218,11 @@
             "c:\\program files (x86)\\windows kits\\10\\include\\10.0.26100.0\\ucrt\\math.h",
             "c:\\program files\\microsoft visual studio\\18\\community\\vc\\tools\\msvc\\14.51.36231\\include\\vcruntime_startup.h",
             "c:\\program files\\microsoft visual studio\\18\\community\\vc\\tools\\msvc\\14.51.36231\\include\\stop_token",
+            "c:\\program files\\microsoft visual studio\\18\\community\\vc\\tools\\msvc\\14.51.36231\\include\\algorithm",
+            "c:\\program files\\microsoft visual studio\\18\\community\\vc\\tools\\msvc\\14.51.36231\\include\\__msvc_heap_algorithms.hpp",
+            "c:\\program files\\microsoft visual studio\\18\\community\\vc\\tools\\msvc\\14.51.36231\\include\\__msvc_int128.hpp",
+            "c:\\program files\\microsoft visual studio\\18\\community\\vc\\tools\\msvc\\14.51.36231\\include\\__msvc_bit_utils.hpp",
+            "c:\\program files\\microsoft visual studio\\18\\community\\vc\\tools\\msvc\\14.51.36231\\include\\__msvc_minmax.hpp",
             "c:\\users\\admin\\source\\repos\\bodycam\\bodycam\\core\\utils\\logger\\logger.h",
             "c:\\users\\admin\\source\\repos\\bodycam\\bodycam\\core\\thirdparty\\minhook\\minhook.h",
             "c:\\users\\admin\\source\\repos\\bodycam\\bodycam\\game\\sdk\\sdk\\basic.hpp",
@@ -233,7 +238,6 @@
             "c:\\program files\\microsoft visual studio\\18\\community\\vc\\tools\\msvc\\14.51.36231\\include\\cmath",
             "c:\\program files\\microsoft visual studio\\18\\community\\vc\\tools\\msvc\\14.51.36231\\include\\list",
             "c:\\program files\\microsoft visual studio\\18\\community\\vc\\tools\\msvc\\14.51.36231\\include\\vector",
-            "c:\\program files\\microsoft visual studio\\18\\community\\vc\\tools\\msvc\\14.51.36231\\include\\__msvc_bit_utils.hpp",
             "c:\\program files\\microsoft visual studio\\18\\community\\vc\\tools\\msvc\\14.51.36231\\include\\xbit_ops.h",
             "c:\\program files\\microsoft visual studio\\18\\community\\vc\\tools\\msvc\\14.51.36231\\include\\xnode_handle.h",
             "c:\\program files\\microsoft visual studio\\18\\community\\vc\\tools\\msvc\\14.51.36231\\include\\format",
@@ -366,7 +370,9 @@
             "c:\\users\\admin\\source\\repos\\bodycam\\bodycam\\game\\sdk\\sdk\\mantletype_structs.hpp",
             "c:\\users\\admin\\source\\repos\\bodycam\\bodycam\\game\\sdk\\sdk\\e_emote_structs.hpp",
             "c:\\users\\admin\\source\\repos\\bodycam\\bodycam\\game\\sdk\\sdk\\gamemode_structs.hpp",
-            "c:\\users\\admin\\source\\repos\\bodycam\\bodycam\\game\\hooked\\hooked.h"
+            "c:\\users\\admin\\source\\repos\\bodycam\\bodycam\\game\\hooked\\hooked.h",
+            "c:\\users\\admin\\source\\repos\\bodycam\\bodycam\\game\\features\\features.h",
+            "c:\\users\\admin\\source\\repos\\bodycam\\bodycam\\game\\features\\esp\\esp.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

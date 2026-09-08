@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "..\\build\\intermediates\\UnrealContainers.obj",
+            "outputs": [
+                "..\\build\\intermediates\\UnrealContainers.hpp.obj.dt.module.json",
+                "..\\build\\intermediates\\UnrealContainers.hpp.obj.dt.d.json"
+            ],
+            "requires": []
+        }
+    ]
+}
