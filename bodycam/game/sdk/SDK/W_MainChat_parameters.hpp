@@ -10,14 +10,14 @@
 
 #include "Basic.hpp"
 
-#include "E_ChatCommand_structs.hpp"
 #include "CoreUObject_structs.hpp"
-#include "E_ChatCategory_structs.hpp"
-#include "S_MessageData_structs.hpp"
-#include "E_Emote_structs.hpp"
 #include "Engine_structs.hpp"
-#include "E_Prefix_structs.hpp"
+#include "E_ChatCommand_structs.hpp"
+#include "E_ChatCategory_structs.hpp"
 #include "SlateCore_structs.hpp"
+#include "E_Emote_structs.hpp"
+#include "S_MessageData_structs.hpp"
+#include "E_Prefix_structs.hpp"
 #include "UMG_structs.hpp"
 #include "InputCore_structs.hpp"
 

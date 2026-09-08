@@ -2293,6 +2293,7 @@ public:
 	int32 GetNumPlayersAndBot() const;
 	int32 GetObjectiveTeam() const;
 	float GetPhaseDuration() const;
+	double GetRoundElapsedSeconds() const;
 	double GetRoundRemainingTime() const;
 	class FText GetRoundRemainingTimeAsTimeText() const;
 	int32 GetRoundWinTeam() const;
@@ -2302,6 +2303,8 @@ public:
 	int32 GetTeamSwitchInterval() const;
 	float GetWarmupDuration() const;
 	struct FBodycamTeamData GetWinningTeam() const;
+	bool HasAnyPositiveScore() const;
+	bool HasTeamWithoutHumanPlayer() const;
 	bool IsCounterObjectiveTeam(int32 TeamID) const;
 	bool IsMatchOver() const;
 	bool IsMatchRoundBased() const;

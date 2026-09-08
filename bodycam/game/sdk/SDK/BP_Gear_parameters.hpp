@@ -11,11 +11,11 @@
 #include "Basic.hpp"
 
 #include "STR_ZombieMapInfo_structs.hpp"
+#include "Engine_structs.hpp"
 #include "EN_ZombieRules_structs.hpp"
-#include "EN_WaveClass_structs.hpp"
 #include "ALS_OverlayState_structs.hpp"
 #include "CoreUObject_structs.hpp"
-#include "Engine_structs.hpp"
+#include "EN_WaveClass_structs.hpp"
 
 
 SDK_NAMESPACE_START

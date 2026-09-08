@@ -10,10 +10,10 @@
 
 #include "Basic.hpp"
 
-#include "STR_PhysicsHand_structs.hpp"
 #include "CoreUObject_structs.hpp"
 #include "Engine_structs.hpp"
 #include "Struct_PendingImpulse_structs.hpp"
+#include "STR_PhysicsHand_structs.hpp"
 #include "GameplayAbilities_structs.hpp"
 
 

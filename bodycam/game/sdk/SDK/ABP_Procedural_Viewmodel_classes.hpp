@@ -10,8 +10,8 @@
 
 #include "Basic.hpp"
 
-#include "BAF_structs.hpp"
 #include "ABP_Procedural_Viewmodel_structs.hpp"
+#include "BAF_structs.hpp"
 #include "Engine_structs.hpp"
 #include "Engine_classes.hpp"
 #include "AnimGraphRuntime_structs.hpp"

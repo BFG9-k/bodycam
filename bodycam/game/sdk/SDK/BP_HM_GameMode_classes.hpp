@@ -11,8 +11,8 @@
 #include "Basic.hpp"
 
 #include "Engine_structs.hpp"
-#include "E_Team_structs.hpp"
 #include "Bodycam_classes.hpp"
+#include "E_Team_structs.hpp"
 
 
 SDK_NAMESPACE_START

@@ -10,13 +10,13 @@
 
 #include "Basic.hpp"
 
-#include "F_CharacterWeaponMontage_structs.hpp"
 #include "Engine_classes.hpp"
-#include "BAF_structs.hpp"
 #include "F_VectorRange_structs.hpp"
+#include "BAF_structs.hpp"
+#include "F_WeaponCollision_structs.hpp"
 #include "F_LowerSwaySettings_structs.hpp"
 #include "CoreUObject_structs.hpp"
-#include "F_WeaponCollision_structs.hpp"
+#include "F_CharacterWeaponMontage_structs.hpp"
 #include "F_JumpVariation_structs.hpp"
 
 

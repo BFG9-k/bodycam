@@ -126,20 +126,6 @@ void UWBP_FooterButtonBase_C::UpdateButtonIcon(EInputDeviceType InputDeviceType)
 }
 
 
-// Function WBP_FooterButtonBase.WBP_FooterButtonBase_C.RefreshWidget
-// (Public, BlueprintCallable, BlueprintEvent)
-
-void UWBP_FooterButtonBase_C::RefreshWidget()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("WBP_FooterButtonBase_C", "RefreshWidget");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
 // Function WBP_FooterButtonBase.WBP_FooterButtonBase_C.OnSetHighlightEffect
 // (BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -159,6 +145,20 @@ void UWBP_FooterButtonBase_C::OnSetHighlightEffect(EWidgetStyleState HighlightSt
 	Parms.bPlaySound = bPlaySound;
 
 	UObject::ProcessEvent(Func, &Parms);
+}
+
+
+// Function WBP_FooterButtonBase.WBP_FooterButtonBase_C.RefreshWidget
+// (Public, BlueprintCallable, BlueprintEvent)
+
+void UWBP_FooterButtonBase_C::RefreshWidget()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("WBP_FooterButtonBase_C", "RefreshWidget");
+
+	UObject::ProcessEvent(Func, nullptr);
 }
 
 

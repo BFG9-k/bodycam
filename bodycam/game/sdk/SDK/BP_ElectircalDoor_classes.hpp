@@ -10,10 +10,10 @@
 
 #include "Basic.hpp"
 
+#include "EN_ZombieRules_structs.hpp"
 #include "Engine_structs.hpp"
 #include "Engine_classes.hpp"
 #include "ALS_OverlayState_structs.hpp"
-#include "EN_ZombieRules_structs.hpp"
 
 
 SDK_NAMESPACE_START

@@ -10,10 +10,10 @@
 
 #include "Basic.hpp"
 
-#include "Lobby_Anim_structs.hpp"
 #include "Engine_structs.hpp"
 #include "Engine_classes.hpp"
 #include "AnimGraphRuntime_structs.hpp"
+#include "Lobby_Anim_structs.hpp"
 
 
 SDK_NAMESPACE_START

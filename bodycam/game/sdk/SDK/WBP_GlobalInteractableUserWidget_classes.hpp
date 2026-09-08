@@ -10,9 +10,9 @@
 
 #include "Basic.hpp"
 
+#include "EMenuInputAction_structs.hpp"
 #include "VTSCommonUIExtension_classes.hpp"
 #include "Engine_structs.hpp"
-#include "EMenuInputAction_structs.hpp"
 #include "EInputDeviceType_structs.hpp"
 #include "EMenuInputWhitelistPreset_structs.hpp"
 #include "SlateCore_structs.hpp"

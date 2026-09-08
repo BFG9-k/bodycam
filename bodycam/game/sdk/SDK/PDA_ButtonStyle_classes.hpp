@@ -10,10 +10,10 @@
 
 #include "Basic.hpp"
 
-#include "EColorPalette_structs.hpp"
 #include "FWidgetAnimationData_structs.hpp"
-#include "EFontPalette_structs.hpp"
+#include "EColorPalette_structs.hpp"
 #include "PDA_WidgetStyle_classes.hpp"
+#include "EFontPalette_structs.hpp"
 
 
 SDK_NAMESPACE_START

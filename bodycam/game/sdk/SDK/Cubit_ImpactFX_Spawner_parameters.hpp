@@ -10,11 +10,11 @@
 
 #include "Basic.hpp"
 
-#include "CoreUObject_structs.hpp"
 #include "FXMaterialData_structs.hpp"
+#include "CoreUObject_structs.hpp"
 #include "Engine_structs.hpp"
-#include "MaterialProperties_structs.hpp"
 #include "Projectile_Size_structs.hpp"
+#include "MaterialProperties_structs.hpp"
 
 
 SDK_NAMESPACE_START

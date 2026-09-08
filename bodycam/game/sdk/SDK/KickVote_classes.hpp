@@ -11,8 +11,8 @@
 #include "Basic.hpp"
 
 #include "Engine_structs.hpp"
-#include "STR_PCInfo_structs.hpp"
 #include "UMG_classes.hpp"
+#include "STR_PCInfo_structs.hpp"
 
 
 SDK_NAMESPACE_START

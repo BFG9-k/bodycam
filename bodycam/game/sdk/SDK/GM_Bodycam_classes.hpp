@@ -10,13 +10,13 @@
 
 #include "Basic.hpp"
 
-#include "E_Emote_structs.hpp"
 #include "Engine_structs.hpp"
 #include "BP_HM_GameMode_classes.hpp"
 #include "STR_PCInfo_structs.hpp"
-#include "S_LevelHudContainer_structs.hpp"
 #include "GM_Statue_structs.hpp"
 #include "GameMode_structs.hpp"
+#include "S_LevelHudContainer_structs.hpp"
+#include "E_Emote_structs.hpp"
 #include "E_Team_structs.hpp"
 
 

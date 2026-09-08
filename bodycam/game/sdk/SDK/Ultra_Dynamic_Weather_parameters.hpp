@@ -11,9 +11,9 @@
 #include "Basic.hpp"
 
 #include "UDS_and_UDW_State_structs.hpp"
+#include "CoreUObject_structs.hpp"
 #include "UDS_RandomWeatherTiming_structs.hpp"
 #include "UDW_WOV_State_structs.hpp"
-#include "CoreUObject_structs.hpp"
 #include "UDS_TemperatureType_structs.hpp"
 #include "Engine_structs.hpp"
 #include "RandomWeatherVariation_State_structs.hpp"

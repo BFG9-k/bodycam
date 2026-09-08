@@ -10,11 +10,11 @@
 
 #include "Basic.hpp"
 
+#include "EN_ScoreBoardMenuType_structs.hpp"
 #include "Engine_structs.hpp"
 #include "GameMode_structs.hpp"
-#include "EN_ScoreBoardMenuType_structs.hpp"
-#include "UMG_structs.hpp"
 #include "WBP_InteractableMenu_classes.hpp"
+#include "UMG_structs.hpp"
 #include "E_Team_structs.hpp"
 
 

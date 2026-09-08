@@ -10,8 +10,8 @@
 
 #include "Basic.hpp"
 
-#include "GameMode_structs.hpp"
 #include "GameplayTags_structs.hpp"
+#include "GameMode_structs.hpp"
 #include "Bodycam_structs.hpp"
 
 

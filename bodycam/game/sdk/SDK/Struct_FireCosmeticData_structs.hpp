@@ -10,9 +10,9 @@
 
 #include "Basic.hpp"
 
-#include "Struct_NearMissActorsData_structs.hpp"
 #include "CoreUObject_structs.hpp"
 #include "Struct_FireImpactData_structs.hpp"
+#include "Struct_NearMissActorsData_structs.hpp"
 
 
 SDK_NAMESPACE_START

@@ -10,16 +10,16 @@
 
 #include "Basic.hpp"
 
-#include "HostMigrationSystem_structs.hpp"
-#include "STR_HM_PCStats_structs.hpp"
 #include "STR_PCInfo_structs.hpp"
+#include "E_Team_structs.hpp"
+#include "STR_HM_PCInfo_structs.hpp"
+#include "HostMigrationSystem_structs.hpp"
 #include "STR_Score_structs.hpp"
 #include "STR_HM_Score_structs.hpp"
-#include "STR_HM_PCInfo_structs.hpp"
-#include "E_Team_structs.hpp"
-#include "STR_PCStats_structs.hpp"
 #include "Engine_structs.hpp"
+#include "STR_HM_PCStats_structs.hpp"
 #include "CoreUObject_structs.hpp"
+#include "STR_PCStats_structs.hpp"
 
 
 SDK_NAMESPACE_START

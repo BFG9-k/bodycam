@@ -10,8 +10,8 @@
 
 #include "Basic.hpp"
 
-#include "FUILayer_structs.hpp"
 #include "EInputDeviceType_structs.hpp"
+#include "FUILayer_structs.hpp"
 
 
 SDK_NAMESPACE_START

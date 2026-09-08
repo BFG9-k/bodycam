@@ -10,11 +10,11 @@
 
 #include "Basic.hpp"
 
-#include "WBP_GlobalInteractableUserWidget_classes.hpp"
+#include "EInputDeviceType_structs.hpp"
 #include "Engine_structs.hpp"
 #include "InputCore_structs.hpp"
+#include "WBP_GlobalInteractableUserWidget_classes.hpp"
 #include "CoreUObject_structs.hpp"
-#include "EInputDeviceType_structs.hpp"
 
 
 SDK_NAMESPACE_START

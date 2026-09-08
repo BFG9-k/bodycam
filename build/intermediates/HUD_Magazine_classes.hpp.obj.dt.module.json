@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "..\\build\\intermediates\\HUD_Magazine_classes.obj",
+            "outputs": [
+                "..\\build\\intermediates\\HUD_Magazine_classes.hpp.obj.dt.module.json",
+                "..\\build\\intermediates\\HUD_Magazine_classes.hpp.obj.dt.d.json"
+            ],
+            "requires": []
+        }
+    ]
+}

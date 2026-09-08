@@ -10,9 +10,9 @@
 
 #include "Basic.hpp"
 
-#include "FInputActionDataElement_structs.hpp"
 #include "EInputDeviceType_structs.hpp"
 #include "SlateCore_structs.hpp"
+#include "FInputActionDataElement_structs.hpp"
 #include "InputCore_structs.hpp"
 #include "CoreUObject_structs.hpp"
 

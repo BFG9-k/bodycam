@@ -10,15 +10,15 @@
 
 #include "Basic.hpp"
 
+#include "ETransitionAnimation_structs.hpp"
 #include "Engine_structs.hpp"
 #include "Engine_classes.hpp"
-#include "EDeviceInputSwitchBehavior_structs.hpp"
-#include "EPauseBehavior_structs.hpp"
-#include "CoreUObject_structs.hpp"
-#include "EColorPalette_structs.hpp"
 #include "EFontPalette_structs.hpp"
+#include "CoreUObject_structs.hpp"
+#include "EDeviceInputSwitchBehavior_structs.hpp"
 #include "FFontStyle_structs.hpp"
-#include "ETransitionAnimation_structs.hpp"
+#include "EColorPalette_structs.hpp"
+#include "EPauseBehavior_structs.hpp"
 
 
 SDK_NAMESPACE_START

@@ -10,13 +10,13 @@
 
 #include "Basic.hpp"
 
-#include "STR_LoadoutWeapon_structs.hpp"
 #include "Engine_structs.hpp"
 #include "Engine_classes.hpp"
-#include "E_LoadoutMethods_structs.hpp"
 #include "STR_Actor_structs.hpp"
 #include "GameMode_structs.hpp"
+#include "E_LoadoutMethods_structs.hpp"
 #include "E_Team_structs.hpp"
+#include "STR_LoadoutWeapon_structs.hpp"
 #include "EN_Widget_Selection_structs.hpp"
 
 

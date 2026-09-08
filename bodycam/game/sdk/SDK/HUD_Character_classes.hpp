@@ -11,8 +11,8 @@
 #include "Basic.hpp"
 
 #include "Engine_structs.hpp"
-#include "UMG_structs.hpp"
 #include "WBP_InteractableMenu_classes.hpp"
+#include "UMG_structs.hpp"
 #include "E_Team_structs.hpp"
 
 

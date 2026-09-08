@@ -48,7 +48,7 @@ public:
 	uint8                                         Pad_29[0x7];                                       // 0x0029(0x0007)(Fixing Size After Last Property [ Dumper-7 ])
 	class UAC_BodycamAnimationComponent_C*        CallFunc_GetBodycamAnimationComponent_AC_BodycamAnimationComponent; // 0x0030(0x0008)(ZeroConstructor, InstancedReference, NoDestructor, HasGetValueTypeHash)
 	class UAnimInstance*                          CallFunc_GetAnimInstance_ReturnValue;              // 0x0038(0x0008)(ZeroConstructor, NoDestructor, HasGetValueTypeHash)
-	class ALS_AnimBP::UALS_AnimBP_C*              K2Node_DynamicCast_AsALS_Anim_BP;                  // 0x0040(0x0008)(ZeroConstructor, NoDestructor, HasGetValueTypeHash)
+	class ALS_AnimBP_0::UALS_AnimBP_C*            K2Node_DynamicCast_AsALS_Anim_BP;                  // 0x0040(0x0008)(ZeroConstructor, NoDestructor, HasGetValueTypeHash)
 	bool                                          K2Node_DynamicCast_bSuccess_2;                     // 0x0048(0x0001)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 };
 DUMPER7_ASSERTS_ABP_Overlay_Default_C_GetAnimVariables;

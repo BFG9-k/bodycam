@@ -10,12 +10,12 @@
 
 #include "Basic.hpp"
 
-#include "WBP_GlobalInteractableUserWidget_classes.hpp"
-#include "Engine_structs.hpp"
 #include "ETransitionAnimation_structs.hpp"
+#include "EInputDeviceType_structs.hpp"
+#include "Engine_structs.hpp"
+#include "WBP_GlobalInteractableUserWidget_classes.hpp"
 #include "EMenuInputWhitelistPreset_structs.hpp"
 #include "EWidgetStyleState_structs.hpp"
-#include "EInputDeviceType_structs.hpp"
 #include "UMG_structs.hpp"
 
 

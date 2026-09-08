@@ -14,8 +14,8 @@
 #include "SlateCore_structs.hpp"
 #include "SteamCorePro_structs.hpp"
 #include "OnlineSubsystemUtils_structs.hpp"
-#include "WBP_InteractableMenu_classes.hpp"
 #include "UMG_structs.hpp"
+#include "WBP_InteractableMenu_classes.hpp"
 
 
 SDK_NAMESPACE_START

@@ -10,10 +10,10 @@
 
 #include "Basic.hpp"
 
-#include "Engine_structs.hpp"
-#include "STR_PCInfo_structs.hpp"
 #include "GameMode_structs.hpp"
 #include "GM_Statue_structs.hpp"
+#include "Engine_structs.hpp"
+#include "STR_PCInfo_structs.hpp"
 #include "STR_KickVote_structs.hpp"
 #include "E_Team_structs.hpp"
 #include "GT_Base_classes.hpp"

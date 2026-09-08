@@ -10,12 +10,12 @@
 
 #include "Basic.hpp"
 
-#include "FFontStyle_structs.hpp"
 #include "Engine_structs.hpp"
-#include "EWidgetStyleState_structs.hpp"
 #include "CoreUObject_structs.hpp"
-#include "WBP_InteractableUserWidget_classes.hpp"
+#include "FFontStyle_structs.hpp"
+#include "EWidgetStyleState_structs.hpp"
 #include "FWidgetAnimationData_structs.hpp"
+#include "WBP_InteractableUserWidget_classes.hpp"
 
 
 SDK_NAMESPACE_START

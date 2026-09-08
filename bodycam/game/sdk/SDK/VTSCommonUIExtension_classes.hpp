@@ -142,16 +142,17 @@ public:
 DUMPER7_ASSERTS_AVTSGameHUD;
 
 // Class VTSCommonUIExtension.VTSLayoutWidget
-// 0x00C0 (0x03B8 - 0x02F8)
+// 0x00D0 (0x03C8 - 0x02F8)
 class UVTSLayoutWidget : public UCommonUserWidget
 {
 public:
 	class UInputMappingContext*                   RootInputMapping;                                  // 0x02F8(0x0008)(Edit, ZeroConstructor, DisableEditOnInstance, NoDestructor, Protected, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierProtected, TObjectPtr)
 	TArray<struct FGameplayTag>                   TabletEnabledLayers;                               // 0x0300(0x0010)(Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, DisableEditOnInstance, Protected, NativeAccessSpecifierProtected)
 	TMap<struct FGameplayTag, class UCommonActivatableWidgetContainerBase*> LayerMap;                // 0x0310(0x0050)(BlueprintVisible, ExportObject, BlueprintReadOnly, ContainsInstancedReference, Protected, UObjectWrapper, NativeAccessSpecifierProtected, TObjectPtr)
-	TMap<struct FGameplayTag, class UPanelWidget*> PanelMap;                                         // 0x0360(0x0050)(BlueprintVisible, ExportObject, BlueprintReadOnly, ContainsInstancedReference, Protected, UObjectWrapper, NativeAccessSpecifierProtected, TObjectPtr)
-	bool                                          bIsTabletLayout;                                   // 0x03B0(0x0001)(BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
-	uint8                                         Pad_3B1[0x7];                                      // 0x03B1(0x0007)(Fixing Struct Size After Last Property [ Dumper-7 ])
+	uint8                                         Pad_360[0x10];                                     // 0x0360(0x0010)(Fixing Size After Last Property [ Dumper-7 ])
+	TMap<struct FGameplayTag, class UPanelWidget*> PanelMap;                                         // 0x0370(0x0050)(BlueprintVisible, ExportObject, BlueprintReadOnly, ContainsInstancedReference, Protected, UObjectWrapper, NativeAccessSpecifierProtected, TObjectPtr)
+	bool                                          bIsTabletLayout;                                   // 0x03C0(0x0001)(BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
+	uint8                                         Pad_3C1[0x7];                                      // 0x03C1(0x0007)(Fixing Struct Size After Last Property [ Dumper-7 ])
 
 public:
 	void InitializeLayout(const bool bInitializeAsTabletLayout);

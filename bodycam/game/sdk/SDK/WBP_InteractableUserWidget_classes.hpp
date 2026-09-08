@@ -10,10 +10,10 @@
 
 #include "Basic.hpp"
 
-#include "ENavigationDirection_structs.hpp"
-#include "WBP_GlobalInteractableUserWidget_classes.hpp"
 #include "Engine_structs.hpp"
 #include "EWidgetStyleState_structs.hpp"
+#include "ENavigationDirection_structs.hpp"
+#include "WBP_GlobalInteractableUserWidget_classes.hpp"
 
 
 SDK_NAMESPACE_START

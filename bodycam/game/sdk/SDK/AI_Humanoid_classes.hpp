@@ -10,15 +10,15 @@
 
 #include "Basic.hpp"
 
-#include "Engine_structs.hpp"
 #include "E_Team_structs.hpp"
-#include "Bodycam_structs.hpp"
-#include "CoreUObject_structs.hpp"
-#include "STR_PCStats_structs.hpp"
 #include "ALS_Base_CharacterBP_classes.hpp"
+#include "Engine_structs.hpp"
+#include "STR_PCStats_structs.hpp"
+#include "CoreUObject_structs.hpp"
+#include "Bodycam_structs.hpp"
+#include "GameMode_structs.hpp"
 #include "ALS_Stance_structs.hpp"
 #include "ALS_Gait_structs.hpp"
-#include "GameMode_structs.hpp"
 
 
 SDK_NAMESPACE_START

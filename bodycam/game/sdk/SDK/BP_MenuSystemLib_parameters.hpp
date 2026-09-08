@@ -10,14 +10,14 @@
 
 #include "Basic.hpp"
 
-#include "CoreUObject_structs.hpp"
 #include "EFontPalette_structs.hpp"
-#include "SlateCore_structs.hpp"
+#include "CoreUObject_structs.hpp"
 #include "FFontStyle_structs.hpp"
-#include "InputCore_structs.hpp"
 #include "EMenuInputWhitelistPreset_structs.hpp"
-#include "EnhancedInput_structs.hpp"
 #include "EMenuInputAction_structs.hpp"
+#include "InputCore_structs.hpp"
+#include "EnhancedInput_structs.hpp"
+#include "SlateCore_structs.hpp"
 #include "FInputActionDataElement_structs.hpp"
 #include "EColorPalette_structs.hpp"
 #include "FUILayer_structs.hpp"

@@ -40,7 +40,7 @@ public:
 	struct FAnimNode_TwoWayBlend                  AnimGraphNode_TwoWayBlend;                         // 0x0948(0x00C8)()
 	struct FAnimNode_Root                         AnimGraphNode_Root;                                // 0x0A10(0x0020)()
 	struct FAnimNode_LinkedAnimLayer              AnimGraphNode_LinkedAnimLayer;                     // 0x0A30(0x00C8)()
-	class ALS_AnimBP::UALS_AnimBP_C*              OwnerAnimInstance;                                 // 0x0AF8(0x0008)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, NoDestructor, HasGetValueTypeHash)
+	class ALS_AnimBP_0::UALS_AnimBP_C*            OwnerAnimInstance;                                 // 0x0AF8(0x0008)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, NoDestructor, HasGetValueTypeHash)
 	class UAC_BodycamAnimationComponent_C*        BodycamAnimation;                                  // 0x0B00(0x0008)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, InstancedReference, NoDestructor, HasGetValueTypeHash)
 
 public:

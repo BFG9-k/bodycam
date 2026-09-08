@@ -10,9 +10,9 @@
 
 #include "Basic.hpp"
 
+#include "JsonUtilities_structs.hpp"
 #include "E_UpscalingMethods_structs.hpp"
 #include "E_AntiAliasingMethods_structs.hpp"
-#include "JsonUtilities_structs.hpp"
 
 
 SDK_NAMESPACE_START

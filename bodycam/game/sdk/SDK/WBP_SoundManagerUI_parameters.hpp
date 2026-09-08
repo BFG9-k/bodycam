@@ -10,8 +10,8 @@
 
 #include "Basic.hpp"
 
-#include "FUISound_structs.hpp"
 #include "AudioMixer_structs.hpp"
+#include "FUISound_structs.hpp"
 #include "ST_BodycamSoundTrack_structs.hpp"
 
 

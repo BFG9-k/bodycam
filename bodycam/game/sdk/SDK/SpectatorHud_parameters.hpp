@@ -11,10 +11,10 @@
 #include "Basic.hpp"
 
 #include "STR_PCStats_structs.hpp"
-#include "STR_VHS_Settings_structs.hpp"
 #include "Engine_structs.hpp"
 #include "SlateCore_structs.hpp"
 #include "SteamCorePro_structs.hpp"
+#include "STR_VHS_Settings_structs.hpp"
 #include "Bodycam_structs.hpp"
 
 

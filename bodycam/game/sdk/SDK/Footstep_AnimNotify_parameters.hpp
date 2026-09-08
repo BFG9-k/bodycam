@@ -10,10 +10,10 @@
 
 #include "Basic.hpp"
 
-#include "CoreUObject_structs.hpp"
 #include "FXMaterialData_structs.hpp"
-#include "Engine_structs.hpp"
+#include "CoreUObject_structs.hpp"
 #include "STR_Footstep_structs.hpp"
+#include "Engine_structs.hpp"
 
 
 SDK_NAMESPACE_START

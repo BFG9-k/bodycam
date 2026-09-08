@@ -1,6 +1,6 @@
 #include "hooked.h"
 
-using PostRender_t = void( __thiscall* )( SDK::UObject*, SDK::UObject* );
+using PostRender_t = void( __thiscall* )( SDK::UObject*, SDK::UCanvas* );
 PostRender_t o_PostRender;
 void hk_PostRender( SDK::UObject* ViewportClient, SDK::UCanvas* Canvas )
 {

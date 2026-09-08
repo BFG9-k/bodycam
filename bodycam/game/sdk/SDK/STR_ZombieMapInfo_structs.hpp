@@ -10,10 +10,10 @@
 
 #include "Basic.hpp"
 
-#include "STR_MapTheme_structs.hpp"
 #include "EN_ZombieMap_structs.hpp"
 #include "STR_SpecialWavesInfo_structs.hpp"
 #include "ActorSpawnProbability_structs.hpp"
+#include "STR_MapTheme_structs.hpp"
 
 
 SDK_NAMESPACE_START

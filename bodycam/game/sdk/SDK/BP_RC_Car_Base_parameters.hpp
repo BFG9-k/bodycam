@@ -10,14 +10,14 @@
 
 #include "Basic.hpp"
 
-#include "STR_KickVote_structs.hpp"
+#include "STR_Loadout_structs.hpp"
 #include "CoreUObject_structs.hpp"
 #include "STR_PCInfo_structs.hpp"
-#include "EnhancedInput_structs.hpp"
 #include "E_Team_structs.hpp"
-#include "STR_Loadout_structs.hpp"
+#include "EnhancedInput_structs.hpp"
 #include "STR_TEST_structs.hpp"
 #include "STR_GamemodeWinInfo_structs.hpp"
+#include "STR_KickVote_structs.hpp"
 #include "Engine_structs.hpp"
 #include "STR_VoteNextMapInfo_structs.hpp"
 #include "GameMode_structs.hpp"

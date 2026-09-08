@@ -10,11 +10,11 @@
 
 #include "Basic.hpp"
 
-#include "Engine_structs.hpp"
-#include "BP_EquippableItem_classes.hpp"
 #include "STR_Grenade_structs.hpp"
-#include "ALS_OverlayState_structs.hpp"
+#include "Engine_structs.hpp"
 #include "GameplayAbilities_structs.hpp"
+#include "BP_EquippableItem_classes.hpp"
+#include "ALS_OverlayState_structs.hpp"
 
 
 SDK_NAMESPACE_START

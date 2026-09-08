@@ -10,13 +10,13 @@
 
 #include "Basic.hpp"
 
-#include "EMenuInputAction_structs.hpp"
-#include "EInputDeviceType_structs.hpp"
-#include "EnhancedInput_structs.hpp"
+#include "Slate_structs.hpp"
 #include "FEnhanchedActionKeyMappingWithContext_structs.hpp"
 #include "UMG_structs.hpp"
 #include "InputCore_structs.hpp"
-#include "Slate_structs.hpp"
+#include "EnhancedInput_structs.hpp"
+#include "EMenuInputAction_structs.hpp"
+#include "EInputDeviceType_structs.hpp"
 #include "SlateCore_structs.hpp"
 #include "CoreUObject_structs.hpp"
 #include "FFontStyle_structs.hpp"

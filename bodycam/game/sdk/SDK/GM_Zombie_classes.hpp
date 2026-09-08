@@ -10,14 +10,14 @@
 
 #include "Basic.hpp"
 
-#include "STR_LoadoutWeapon_structs.hpp"
+#include "EN_ZombieRules_structs.hpp"
 #include "Engine_structs.hpp"
-#include "GameMode_structs.hpp"
-#include "STR_ZombieMapInfo_structs.hpp"
 #include "E_Team_structs.hpp"
+#include "STR_LoadoutWeapon_structs.hpp"
+#include "STR_ZombieMapInfo_structs.hpp"
+#include "GameMode_structs.hpp"
 #include "Bodycam_structs.hpp"
 #include "Bodycam_classes.hpp"
-#include "EN_ZombieRules_structs.hpp"
 #include "EN_WaveClass_structs.hpp"
 
 

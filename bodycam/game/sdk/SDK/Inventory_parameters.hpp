@@ -10,17 +10,17 @@
 
 #include "Basic.hpp"
 
-#include "STR_LoadoutInfo_structs.hpp"
 #include "F_CharacterWeaponMontage_structs.hpp"
+#include "E_Team_structs.hpp"
 #include "STR_LoadoutWeapon_structs.hpp"
 #include "E_LoadoutMethods_structs.hpp"
-#include "STR_Actor_structs.hpp"
 #include "CoreUObject_structs.hpp"
+#include "STR_Actor_structs.hpp"
+#include "STR_LoadoutInfo_structs.hpp"
 #include "EnhancedInput_structs.hpp"
-#include "Bodycam_structs.hpp"
-#include "E_Team_structs.hpp"
 #include "EN_Widget_Selection_structs.hpp"
 #include "Engine_structs.hpp"
+#include "Bodycam_structs.hpp"
 
 
 SDK_NAMESPACE_START

@@ -11,9 +11,9 @@
 #include "Basic.hpp"
 
 #include "STR_HM_PCStats_structs.hpp"
+#include "STR_KillInfo_structs.hpp"
 #include "STR_PCStats_structs.hpp"
 #include "STR_HM_KillInfo_structs.hpp"
-#include "STR_KillInfo_structs.hpp"
 #include "STR_Score_structs.hpp"
 #include "STR_HM_Score_structs.hpp"
 

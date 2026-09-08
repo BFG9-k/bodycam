@@ -10,9 +10,9 @@
 
 #include "Basic.hpp"
 
-#include "ST_BodycamSoundTrack_structs.hpp"
 #include "Engine_structs.hpp"
 #include "Engine_classes.hpp"
+#include "ST_BodycamSoundTrack_structs.hpp"
 
 
 SDK_NAMESPACE_START

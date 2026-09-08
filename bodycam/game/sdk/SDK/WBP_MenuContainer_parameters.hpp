@@ -10,9 +10,9 @@
 
 #include "Basic.hpp"
 
-#include "EInputDeviceType_structs.hpp"
-#include "EnhancedInput_structs.hpp"
 #include "FEnhanchedActionKeyMappingWithContext_structs.hpp"
+#include "EnhancedInput_structs.hpp"
+#include "EInputDeviceType_structs.hpp"
 #include "ETransitionAnimation_structs.hpp"
 #include "FTransitionAnimationMapping_structs.hpp"
 #include "UMG_structs.hpp"

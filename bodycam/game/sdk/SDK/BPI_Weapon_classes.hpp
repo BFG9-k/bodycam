@@ -10,8 +10,8 @@
 
 #include "Basic.hpp"
 
-#include "E_ItemSlotActionType_structs.hpp"
 #include "CoreUObject_classes.hpp"
+#include "E_ItemSlotActionType_structs.hpp"
 
 
 SDK_NAMESPACE_START

@@ -10,21 +10,21 @@
 
 #include "Basic.hpp"
 
+#include "STR_TEST_structs.hpp"
+#include "STR_GamemodeWinInfo_structs.hpp"
 #include "Bodycam_structs.hpp"
-#include "E_Team_structs.hpp"
+#include "STR_Loadout_structs.hpp"
 #include "GameplayTags_structs.hpp"
 #include "CoreUObject_structs.hpp"
-#include "STR_PCInfo_structs.hpp"
-#include "SteamCorePro_structs.hpp"
-#include "F_GripData_structs.hpp"
-#include "STR_Loadout_structs.hpp"
-#include "STR_TEST_structs.hpp"
 #include "STR_KickVote_structs.hpp"
-#include "STR_GamemodeWinInfo_structs.hpp"
+#include "F_GripData_structs.hpp"
+#include "Mantle_Asset_structs.hpp"
+#include "SteamCorePro_structs.hpp"
+#include "STR_PCInfo_structs.hpp"
+#include "E_Team_structs.hpp"
 #include "Engine_structs.hpp"
 #include "ALS_Gait_structs.hpp"
 #include "MantleType_structs.hpp"
-#include "Mantle_Asset_structs.hpp"
 #include "EnhancedInput_structs.hpp"
 #include "InputCore_structs.hpp"
 #include "E_Emote_structs.hpp"
@@ -2264,7 +2264,7 @@ struct Bodycam_Player_C_OnRep_bCharacterIsPossessed final
 {
 public:
 	class UAnimInstance*                          CallFunc_GetAnimInstance_ReturnValue;              // 0x0000(0x0008)(ZeroConstructor, NoDestructor, HasGetValueTypeHash)
-	class ALS_AnimBP::UALS_AnimBP_C*              K2Node_DynamicCast_AsALS_Anim_BP;                  // 0x0008(0x0008)(ZeroConstructor, NoDestructor, HasGetValueTypeHash)
+	class ALS_AnimBP_0::UALS_AnimBP_C*            K2Node_DynamicCast_AsALS_Anim_BP;                  // 0x0008(0x0008)(ZeroConstructor, NoDestructor, HasGetValueTypeHash)
 	bool                                          K2Node_DynamicCast_bSuccess;                       // 0x0010(0x0001)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 	bool                                          CallFunc_IsLocallyControlled_ReturnValue;          // 0x0011(0x0001)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 };

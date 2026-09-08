@@ -10,13 +10,13 @@
 
 #include "Basic.hpp"
 
+#include "E_Team_structs.hpp"
+#include "IMU_Data_structs.hpp"
 #include "DroneFlightMode_structs.hpp"
 #include "Engine_structs.hpp"
-#include "E_Team_structs.hpp"
-#include "DroneRatesPresetMode_structs.hpp"
 #include "BP_Perk_Base_classes.hpp"
 #include "CoreUObject_structs.hpp"
-#include "IMU_Data_structs.hpp"
+#include "DroneRatesPresetMode_structs.hpp"
 #include "DroneHudMode_structs.hpp"
 #include "GameMode_structs.hpp"
 

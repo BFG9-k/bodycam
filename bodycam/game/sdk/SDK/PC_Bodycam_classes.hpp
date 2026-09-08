@@ -10,13 +10,13 @@
 
 #include "Basic.hpp"
 
-#include "Engine_structs.hpp"
 #include "E_Team_structs.hpp"
 #include "STR_KillInfo_structs.hpp"
+#include "Engine_structs.hpp"
 #include "PC_BodycamBase_classes.hpp"
-#include "SteamCorePro_structs.hpp"
 #include "GameMode_structs.hpp"
 #include "GM_Statue_structs.hpp"
+#include "SteamCorePro_structs.hpp"
 
 
 SDK_NAMESPACE_START

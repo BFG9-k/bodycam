@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "..\\build\\intermediates\\WEP_classes.obj",
+            "outputs": [
+                "..\\build\\intermediates\\WEP_classes.hpp.obj.dt.module.json",
+                "..\\build\\intermediates\\WEP_classes.hpp.obj.dt.d.json"
+            ],
+            "requires": []
+        }
+    ]
+}

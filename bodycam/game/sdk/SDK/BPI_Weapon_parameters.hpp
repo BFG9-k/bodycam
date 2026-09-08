@@ -10,10 +10,10 @@
 
 #include "Basic.hpp"
 
-#include "E_ItemSlotActionType_structs.hpp"
 #include "GameplayTags_structs.hpp"
 #include "Engine_structs.hpp"
 #include "Bodycam_structs.hpp"
+#include "E_ItemSlotActionType_structs.hpp"
 
 
 SDK_NAMESPACE_START

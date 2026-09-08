@@ -10,18 +10,18 @@
 
 #include "Basic.hpp"
 
+#include "E_Team_structs.hpp"
+#include "ALS_Base_CharacterBP_classes.hpp"
 #include "Engine_structs.hpp"
+#include "MantleType_structs.hpp"
+#include "ST_DefaultSteamItem_structs.hpp"
 #include "CoreUObject_structs.hpp"
 #include "Mantle_Asset_structs.hpp"
-#include "E_Team_structs.hpp"
-#include "ST_DefaultSteamItem_structs.hpp"
-#include "ALS_Base_CharacterBP_classes.hpp"
 #include "ALS_Gait_structs.hpp"
-#include "MantleType_structs.hpp"
 #include "ALS_OverlayState_structs.hpp"
 #include "E_Emote_structs.hpp"
-#include "EN_ShopItemClass_structs.hpp"
 #include "GameMode_structs.hpp"
+#include "EN_ShopItemClass_structs.hpp"
 
 
 SDK_NAMESPACE_START

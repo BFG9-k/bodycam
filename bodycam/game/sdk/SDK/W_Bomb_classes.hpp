@@ -12,8 +12,8 @@
 
 #include "VTSCommonUIExtension_classes.hpp"
 #include "Engine_structs.hpp"
-#include "UMG_structs.hpp"
 #include "BP_MainTabStruct_structs.hpp"
+#include "UMG_structs.hpp"
 
 
 SDK_NAMESPACE_START

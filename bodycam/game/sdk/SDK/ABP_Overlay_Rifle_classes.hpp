@@ -12,9 +12,9 @@
 
 #include "Engine_structs.hpp"
 #include "Engine_classes.hpp"
-#include "ALS_RotationMode_structs.hpp"
 #include "ABP_Overlay_Rifle_structs.hpp"
 #include "AnimGraphRuntime_structs.hpp"
+#include "ALS_RotationMode_structs.hpp"
 #include "VelocityBlend_structs.hpp"
 
 
@@ -121,7 +121,7 @@ public:
 	uint8                                         Pad_2F86[0x2];                                     // 0x2F86(0x0002)(Fixing Size After Last Property [ Dumper-7 ])
 	struct FVelocityBlend                         K2Node_PropertyAccess_1;                           // 0x2F88(0x0010)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 	double                                        K2Node_PropertyAccess;                             // 0x2F98(0x0008)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	class ALS_AnimBP::UALS_AnimBP_C*              OwnerAnimInstance;                                 // 0x2FA0(0x0008)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, NoDestructor, HasGetValueTypeHash)
+	class ALS_AnimBP_0::UALS_AnimBP_C*            OwnerAnimInstance;                                 // 0x2FA0(0x0008)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, NoDestructor, HasGetValueTypeHash)
 	class UAC_BodycamAnimationComponent_C*        BodycamAnimation;                                  // 0x2FA8(0x0008)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, InstancedReference, NoDestructor, HasGetValueTypeHash)
 	class UAnimSequence*                          RelaxedIdle;                                       // 0x2FB0(0x0008)(Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, NoDestructor, HasGetValueTypeHash)
 

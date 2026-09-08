@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "..\\build\\intermediates\\STR_PCStats_structs.obj",
+            "outputs": [
+                "..\\build\\intermediates\\STR_PCStats_structs.hpp.obj.dt.module.json",
+                "..\\build\\intermediates\\STR_PCStats_structs.hpp.obj.dt.d.json"
+            ],
+            "requires": []
+        }
+    ]
+}

@@ -10,26 +10,26 @@
 
 #include "Basic.hpp"
 
-#include "STR_PCInfo_structs.hpp"
+#include "Mantle_Asset_structs.hpp"
 #include "SteamCorePro_structs.hpp"
-#include "STR_KickVote_structs.hpp"
-#include "CoreUObject_structs.hpp"
-#include "E_Team_structs.hpp"
 #include "STR_Loadout_structs.hpp"
+#include "CoreUObject_structs.hpp"
+#include "STR_PCInfo_structs.hpp"
+#include "E_Team_structs.hpp"
 #include "STR_GamemodeWinInfo_structs.hpp"
 #include "STR_TEST_structs.hpp"
+#include "STR_KickVote_structs.hpp"
 #include "Engine_structs.hpp"
-#include "STR_VoteNextMapInfo_structs.hpp"
 #include "ST_DefaultSteamItem_structs.hpp"
 #include "ALS_Gait_structs.hpp"
 #include "ALS_ComponentAndTransform_structs.hpp"
 #include "MantleType_structs.hpp"
 #include "ALS_OverlayState_structs.hpp"
-#include "Mantle_Asset_structs.hpp"
 #include "EnhancedInput_structs.hpp"
 #include "E_Emote_structs.hpp"
-#include "EN_ShopItemClass_structs.hpp"
 #include "GameMode_structs.hpp"
+#include "EN_ShopItemClass_structs.hpp"
+#include "STR_VoteNextMapInfo_structs.hpp"
 #include "STR_Score_structs.hpp"
 #include "STR_KillInfo_structs.hpp"
 
@@ -1440,7 +1440,7 @@ public:
 	class UAnimInstance*                          CallFunc_GetAnimInstance_ReturnValue;              // 0x0008(0x0008)(ZeroConstructor, NoDestructor, HasGetValueTypeHash)
 	bool                                          K2Node_Select_Default;                             // 0x0010(0x0001)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 	uint8                                         Pad_11[0x7];                                       // 0x0011(0x0007)(Fixing Size After Last Property [ Dumper-7 ])
-	class ALS_AnimBP_0::UALS_AnimBP_C*            K2Node_DynamicCast_AsALS_Anim_BP;                  // 0x0018(0x0008)(ZeroConstructor, NoDestructor, HasGetValueTypeHash)
+	class ALS_AnimBP::UALS_AnimBP_C*              K2Node_DynamicCast_AsALS_Anim_BP;                  // 0x0018(0x0008)(ZeroConstructor, NoDestructor, HasGetValueTypeHash)
 	bool                                          K2Node_DynamicCast_bSuccess;                       // 0x0020(0x0001)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 };
 DUMPER7_ASSERTS_ALS_AnimMan_CharacterBP_C_Init_Hide_Head;

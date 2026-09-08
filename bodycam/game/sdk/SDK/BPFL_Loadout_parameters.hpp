@@ -11,8 +11,8 @@
 #include "Basic.hpp"
 
 #include "Engine_structs.hpp"
-#include "Bodycam_structs.hpp"
 #include "Struct_RarityData_structs.hpp"
+#include "Bodycam_structs.hpp"
 #include "GameplayTags_structs.hpp"
 
 

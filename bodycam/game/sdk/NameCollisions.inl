@@ -9,68 +9,43 @@
 // FORWARD DECLARATIONS
 
 
-namespace ABP_Procedural_GoPro { struct FAnimBlueprintGeneratedConstantData; }
-
-namespace ABP_Goggles { struct FAnimBlueprintGeneratedConstantData; }
-
-namespace ABP_GripPoses { struct FAnimBlueprintGeneratedConstantData; }
-
 namespace GameplayAbilities { struct FServerAbilityRPCBatch; }
-
-namespace ABP_Procedural_Sway { struct FAnimBlueprintGeneratedConstantData; }
-
-namespace Bodycam { struct FSTR_Rank; }
-
-namespace ABP_PostOverlay { struct FAnimBlueprintGeneratedConstantData; }
-
-namespace ABP_WeaponCollision { struct FAnimBlueprintGeneratedConstantData; }
-
-namespace ABP_Akm { struct FAnimBlueprintGeneratedConstantData; }
 
 namespace ABP_Procedural_IK { struct FAnimBlueprintGeneratedConstantData; }
 
+namespace Bodycam { struct FSTR_Rank; }
+
+namespace ABP_Procedural_GoPro { struct FAnimBlueprintGeneratedConstantData; }
+
+namespace Viewmodel { struct FAnimBlueprintGeneratedConstantData; }
+
+namespace ABP_Akm { struct FAnimBlueprintGeneratedConstantData; }
+
+namespace ABP_GripPoses { struct FAnimBlueprintGeneratedConstantData; }
+
 namespace ABP_Overlay_Default { struct FAnimBlueprintGeneratedConstantData; }
 
+namespace ABP_Procedural_Sway { struct FAnimBlueprintGeneratedConstantData; }
+
+namespace ABP_PostOverlay { struct FAnimBlueprintGeneratedConstantData; }
+
+namespace STR_Rank { struct FSTR_Rank; }
+
 namespace AnimBP_HorrorMob { struct FAnimBlueprintGeneratedConstantData; }
+
+namespace ABP_WeaponCollision { struct FAnimBlueprintGeneratedConstantData; }
+
+namespace ABP_Goggles { struct FAnimBlueprintGeneratedConstantData; }
 
 namespace Kyoshin_Chassis_Skeleton_AnimBlueprint { struct FAnimBlueprintGeneratedConstantData; }
 
 namespace ABP_W_DroneController { struct FAnimBlueprintGeneratedConstantData; }
 
-namespace STR_Rank { struct FSTR_Rank; }
-
-namespace Viewmodel { struct FAnimBlueprintGeneratedConstantData; }
-
-
-namespace abp_Raven_01_03_spline
-{
-	struct FAnimBlueprintGeneratedConstantData;
-	struct FAnimBlueprintGeneratedMutableData;
-}
 
 namespace ABP_Tablet
 {
-	struct FAnimBlueprintGeneratedMutableData;
-	struct FAnimBlueprintGeneratedConstantData;
-}
-
-namespace Lobby_Anim
-{
-	struct FAnimBlueprintGeneratedMutableData;
-	struct FAnimBlueprintGeneratedConstantData;
-}
-
-namespace ABP_Overlay_Tablet
-{
 	struct FAnimBlueprintGeneratedConstantData;
 	struct FAnimBlueprintGeneratedMutableData;
-}
-
-namespace ALS_AnimBP
-{
-	struct FAnimBlueprintGeneratedMutableData;
-	class UALS_AnimBP_C;
-	struct FAnimBlueprintGeneratedConstantData;
 }
 
 namespace ABP_Procedural_Additives
@@ -79,10 +54,16 @@ namespace ABP_Procedural_Additives
 	struct FAnimBlueprintGeneratedConstantData;
 }
 
+namespace ABP_Overlay_Tablet
+{
+	struct FAnimBlueprintGeneratedMutableData;
+	struct FAnimBlueprintGeneratedConstantData;
+}
+
 namespace ALS_AnimBP_0
 {
-	class UALS_AnimBP_C;
 	struct FAnimBlueprintGeneratedConstantData;
+	class UALS_AnimBP_C;
 	struct FAnimBlueprintGeneratedMutableData;
 }
 
@@ -94,8 +75,8 @@ namespace ABP_Procedural_ApplyViewmodel
 
 namespace ABP_Procedural_Viewmodel
 {
-	struct FAnimBlueprintGeneratedMutableData;
 	struct FAnimBlueprintGeneratedConstantData;
+	struct FAnimBlueprintGeneratedMutableData;
 }
 
 namespace ABP_Procedural_AimOffset
@@ -104,7 +85,26 @@ namespace ABP_Procedural_AimOffset
 	struct FAnimBlueprintGeneratedConstantData;
 }
 
-namespace AnimBP_Zombie
+namespace ABP_M4a1
+{
+	struct FAnimBlueprintGeneratedConstantData;
+	struct FAnimBlueprintGeneratedMutableData;
+}
+
+namespace ALS_AnimBP
+{
+	struct FAnimBlueprintGeneratedConstantData;
+	class UALS_AnimBP_C;
+	struct FAnimBlueprintGeneratedMutableData;
+}
+
+namespace Lobby_Anim
+{
+	struct FAnimBlueprintGeneratedMutableData;
+	struct FAnimBlueprintGeneratedConstantData;
+}
+
+namespace abp_Raven_01_03_spline
 {
 	struct FAnimBlueprintGeneratedConstantData;
 	struct FAnimBlueprintGeneratedMutableData;
@@ -112,11 +112,11 @@ namespace AnimBP_Zombie
 
 namespace ABP_Overlay_Rifle
 {
-	struct FAnimBlueprintGeneratedMutableData;
 	struct FAnimBlueprintGeneratedConstantData;
+	struct FAnimBlueprintGeneratedMutableData;
 }
 
-namespace ABP_M4a1
+namespace AnimBP_Zombie
 {
 	struct FAnimBlueprintGeneratedConstantData;
 	struct FAnimBlueprintGeneratedMutableData;

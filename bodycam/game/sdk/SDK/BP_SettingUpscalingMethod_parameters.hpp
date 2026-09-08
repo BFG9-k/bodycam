@@ -10,10 +10,10 @@
 
 #include "Basic.hpp"
 
-#include "E_UpscalingMethods_structs.hpp"
-#include "F_CultureInvariantOptionsValues_structs.hpp"
-#include "E_FSRPluginVersion_structs.hpp"
 #include "F_SettingSelectorValue_structs.hpp"
+#include "F_CultureInvariantOptionsValues_structs.hpp"
+#include "E_UpscalingMethods_structs.hpp"
+#include "E_FSRPluginVersion_structs.hpp"
 
 
 SDK_NAMESPACE_START

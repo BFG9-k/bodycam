@@ -10,12 +10,12 @@
 
 #include "Basic.hpp"
 
-#include "Struct_GameModeDefinition_structs.hpp"
 #include "Bodycam_structs.hpp"
 #include "Bodycam_classes.hpp"
 #include "Engine_structs.hpp"
 #include "BP_MapDefinition_structs.hpp"
 #include "GameMode_structs.hpp"
+#include "Struct_GameModeDefinition_structs.hpp"
 
 
 SDK_NAMESPACE_START

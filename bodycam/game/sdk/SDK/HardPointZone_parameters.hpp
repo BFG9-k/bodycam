@@ -11,9 +11,9 @@
 #include "Basic.hpp"
 
 #include "AI_HardPoint_structs.hpp"
+#include "STR_RANGE_structs.hpp"
 #include "Engine_structs.hpp"
 #include "CoreUObject_structs.hpp"
-#include "STR_RANGE_structs.hpp"
 #include "STR_GamemodeWinInfo_structs.hpp"
 
 

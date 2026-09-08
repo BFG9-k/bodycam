@@ -11,12 +11,12 @@
 #include "Basic.hpp"
 
 #include "Struct_InventoryGraceWindowData_structs.hpp"
-#include "Struct_InventoryGrabItem_structs.hpp"
 #include "GameplayTags_structs.hpp"
-#include "STR_LoadoutWeapon_structs.hpp"
 #include "Engine_structs.hpp"
-#include "Struct_InventoryData_structs.hpp"
 #include "Bodycam_classes.hpp"
+#include "Struct_InventoryData_structs.hpp"
+#include "STR_LoadoutWeapon_structs.hpp"
+#include "Struct_InventoryGrabItem_structs.hpp"
 
 
 SDK_NAMESPACE_START

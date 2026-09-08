@@ -10,18 +10,18 @@
 
 #include "Basic.hpp"
 
-#include "UMG_structs.hpp"
-#include "STR_GamemodeWinInfo_structs.hpp"
-#include "STR_GlobalStatues_structs.hpp"
-#include "ST_DefaultSteamItem_structs.hpp"
 #include "CoreUObject_structs.hpp"
-#include "Bodycam_structs.hpp"
+#include "ST_DefaultSteamItem_structs.hpp"
+#include "RS_Statues_structs.hpp"
+#include "UMG_structs.hpp"
 #include "E_Team_structs.hpp"
 #include "SteamCorePro_structs.hpp"
 #include "SlateCore_structs.hpp"
-#include "RS_Statues_structs.hpp"
+#include "Bodycam_structs.hpp"
+#include "STR_GamemodeWinInfo_structs.hpp"
 #include "STR_KickVote_structs.hpp"
 #include "Engine_structs.hpp"
+#include "STR_GlobalStatues_structs.hpp"
 
 
 SDK_NAMESPACE_START

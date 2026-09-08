@@ -10,12 +10,12 @@
 
 #include "Basic.hpp"
 
+#include "EMenuInputAction_structs.hpp"
 #include "Engine_classes.hpp"
 #include "EFontPalette_structs.hpp"
 #include "EMenuInputWhitelistPreset_structs.hpp"
-#include "EMenuInputAction_structs.hpp"
-#include "SlateCore_structs.hpp"
 #include "EColorPalette_structs.hpp"
+#include "SlateCore_structs.hpp"
 
 
 SDK_NAMESPACE_START

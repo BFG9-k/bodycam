@@ -13,14 +13,14 @@
 #include "GameplayTags_structs.hpp"
 #include "CoreUObject_structs.hpp"
 #include "Bodycam_structs.hpp"
-#include "Projectile_Size_structs.hpp"
 #include "ALS_OverlayState_structs.hpp"
 #include "F_CharacterWeaponMontage_structs.hpp"
 #include "BAF_structs.hpp"
 #include "Engine_structs.hpp"
+#include "Struct_NearMissActorsData_structs.hpp"
+#include "Projectile_Size_structs.hpp"
 #include "Struct_FireCosmeticData_structs.hpp"
 #include "Struct_FireImpactData_structs.hpp"
-#include "Struct_NearMissActorsData_structs.hpp"
 
 
 SDK_NAMESPACE_START

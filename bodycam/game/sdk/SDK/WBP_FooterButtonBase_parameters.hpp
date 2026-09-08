@@ -10,10 +10,10 @@
 
 #include "Basic.hpp"
 
-#include "EInputDeviceType_structs.hpp"
 #include "EnhancedInput_structs.hpp"
-#include "EWidgetStyleState_structs.hpp"
+#include "EInputDeviceType_structs.hpp"
 #include "SlateCore_structs.hpp"
+#include "EWidgetStyleState_structs.hpp"
 #include "InputCore_structs.hpp"
 
 
@@ -73,15 +73,6 @@ public:
 };
 DUMPER7_ASSERTS_WBP_FooterButtonBase_C_UpdateButtonIcon;
 
-// Function WBP_FooterButtonBase.WBP_FooterButtonBase_C.RefreshWidget
-// 0x0008 (0x0008 - 0x0000)
-struct WBP_FooterButtonBase_C_RefreshWidget final
-{
-public:
-	class UWBP_MenuContainer_C*                   CallFunc_GetOwningContainer_OwningContainer;       // 0x0000(0x0008)(ZeroConstructor, InstancedReference, NoDestructor, HasGetValueTypeHash)
-};
-DUMPER7_ASSERTS_WBP_FooterButtonBase_C_RefreshWidget;
-
 // Function WBP_FooterButtonBase.WBP_FooterButtonBase_C.OnSetHighlightEffect
 // 0x0002 (0x0002 - 0x0000)
 struct WBP_FooterButtonBase_C_OnSetHighlightEffect final
@@ -91,6 +82,15 @@ public:
 	bool                                          bPlaySound;                                        // 0x0001(0x0001)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 };
 DUMPER7_ASSERTS_WBP_FooterButtonBase_C_OnSetHighlightEffect;
+
+// Function WBP_FooterButtonBase.WBP_FooterButtonBase_C.RefreshWidget
+// 0x0008 (0x0008 - 0x0000)
+struct WBP_FooterButtonBase_C_RefreshWidget final
+{
+public:
+	class UWBP_MenuContainer_C*                   CallFunc_GetOwningContainer_OwningContainer;       // 0x0000(0x0008)(ZeroConstructor, InstancedReference, NoDestructor, HasGetValueTypeHash)
+};
+DUMPER7_ASSERTS_WBP_FooterButtonBase_C_RefreshWidget;
 
 // Function WBP_FooterButtonBase.WBP_FooterButtonBase_C.OnPressedBack
 // 0x0040 (0x0040 - 0x0000)

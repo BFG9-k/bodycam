@@ -10,11 +10,11 @@
 
 #include "Basic.hpp"
 
-#include "ETransitionAnimation_structs.hpp"
 #include "EMenuInputWhitelistPreset_structs.hpp"
-#include "EWidgetStyleState_structs.hpp"
 #include "SlateCore_structs.hpp"
+#include "EWidgetStyleState_structs.hpp"
 #include "UMG_structs.hpp"
+#include "ETransitionAnimation_structs.hpp"
 #include "EInputDeviceType_structs.hpp"
 
 

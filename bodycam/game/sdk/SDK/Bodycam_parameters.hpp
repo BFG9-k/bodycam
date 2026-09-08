@@ -3452,6 +3452,15 @@ public:
 };
 DUMPER7_ASSERTS_BodycamGameState_GetPhaseDuration;
 
+// Function Bodycam.BodycamGameState.GetRoundElapsedSeconds
+// 0x0008 (0x0008 - 0x0000)
+struct BodycamGameState_GetRoundElapsedSeconds final
+{
+public:
+	double                                        ReturnValue;                                       // 0x0000(0x0008)(Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+DUMPER7_ASSERTS_BodycamGameState_GetRoundElapsedSeconds;
+
 // Function Bodycam.BodycamGameState.GetRoundRemainingTime
 // 0x0008 (0x0008 - 0x0000)
 struct BodycamGameState_GetRoundRemainingTime final
@@ -3533,6 +3542,24 @@ public:
 	struct FBodycamTeamData                       ReturnValue;                                       // 0x0000(0x000C)(Parm, OutParm, ReturnParm, NoDestructor, NativeAccessSpecifierPublic)
 };
 DUMPER7_ASSERTS_BodycamGameState_GetWinningTeam;
+
+// Function Bodycam.BodycamGameState.HasAnyPositiveScore
+// 0x0001 (0x0001 - 0x0000)
+struct BodycamGameState_HasAnyPositiveScore final
+{
+public:
+	bool                                          ReturnValue;                                       // 0x0000(0x0001)(Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+DUMPER7_ASSERTS_BodycamGameState_HasAnyPositiveScore;
+
+// Function Bodycam.BodycamGameState.HasTeamWithoutHumanPlayer
+// 0x0001 (0x0001 - 0x0000)
+struct BodycamGameState_HasTeamWithoutHumanPlayer final
+{
+public:
+	bool                                          ReturnValue;                                       // 0x0000(0x0001)(Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+DUMPER7_ASSERTS_BodycamGameState_HasTeamWithoutHumanPlayer;
 
 // Function Bodycam.BodycamGameState.IsCounterObjectiveTeam
 // 0x0008 (0x0008 - 0x0000)

@@ -10,9 +10,9 @@
 
 #include "Basic.hpp"
 
-#include "HostMigrationSystem_classes.hpp"
 #include "GameMode_structs.hpp"
 #include "STR_HM_Score_structs.hpp"
+#include "HostMigrationSystem_classes.hpp"
 #include "STR_HM_PCInfo_structs.hpp"
 
 

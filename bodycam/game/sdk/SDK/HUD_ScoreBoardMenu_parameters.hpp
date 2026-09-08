@@ -10,13 +10,13 @@
 
 #include "Basic.hpp"
 
+#include "UMG_structs.hpp"
 #include "STR_PCInfo_structs.hpp"
 #include "CoreUObject_structs.hpp"
-#include "STR_GamemodeWinInfo_structs.hpp"
-#include "UMG_structs.hpp"
 #include "GameMode_structs.hpp"
-#include "E_Team_structs.hpp"
+#include "STR_GamemodeWinInfo_structs.hpp"
 #include "Engine_structs.hpp"
+#include "E_Team_structs.hpp"
 
 
 SDK_NAMESPACE_START

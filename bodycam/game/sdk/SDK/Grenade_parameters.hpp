@@ -12,9 +12,9 @@
 
 #include "CoreUObject_structs.hpp"
 #include "Engine_structs.hpp"
+#include "GameplayAbilities_structs.hpp"
 #include "ALS_OverlayState_structs.hpp"
 #include "F_CharacterWeaponMontage_structs.hpp"
-#include "GameplayAbilities_structs.hpp"
 #include "STR_Grenade_structs.hpp"
 
 

@@ -10,11 +10,11 @@
 
 #include "Basic.hpp"
 
-#include "Engine_structs.hpp"
+#include "EInputDeviceType_structs.hpp"
 #include "ETransitionAnimation_structs.hpp"
+#include "Engine_structs.hpp"
 #include "FFooterBarButtonData_structs.hpp"
 #include "WBP_InteractableMenu_classes.hpp"
-#include "EInputDeviceType_structs.hpp"
 
 
 SDK_NAMESPACE_START

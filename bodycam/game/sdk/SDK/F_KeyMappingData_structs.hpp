@@ -10,8 +10,8 @@
 
 #include "Basic.hpp"
 
-#include "E_KeyMappingModifierTypes_structs.hpp"
 #include "InputCore_structs.hpp"
+#include "E_KeyMappingModifierTypes_structs.hpp"
 
 
 SDK_NAMESPACE_START

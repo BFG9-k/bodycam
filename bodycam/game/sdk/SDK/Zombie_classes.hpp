@@ -10,21 +10,21 @@
 
 #include "Basic.hpp"
 
-#include "ALS_RotationMode_structs.hpp"
-#include "Engine_structs.hpp"
-#include "ALS_MovementState_structs.hpp"
-#include "MovementSettings_structs.hpp"
-#include "CoreUObject_structs.hpp"
-#include "Bodycam_classes.hpp"
-#include "E_Team_structs.hpp"
 #include "EN_ZombieRules_structs.hpp"
-#include "ALS_MovementAction_structs.hpp"
-#include "ALS_Stance_structs.hpp"
+#include "Engine_structs.hpp"
+#include "CoreUObject_structs.hpp"
 #include "ALS_Gait_structs.hpp"
-#include "ALS_ViewMode_structs.hpp"
+#include "MovementSettings_structs.hpp"
+#include "Bodycam_classes.hpp"
+#include "ALS_RotationMode_structs.hpp"
+#include "E_Team_structs.hpp"
 #include "ALS_OverlayState_structs.hpp"
-#include "EN_WaveClass_structs.hpp"
+#include "ALS_MovementState_structs.hpp"
+#include "ALS_MovementAction_structs.hpp"
 #include "GameMode_structs.hpp"
+#include "ALS_Stance_structs.hpp"
+#include "ALS_ViewMode_structs.hpp"
+#include "EN_WaveClass_structs.hpp"
 
 
 SDK_NAMESPACE_START

@@ -10,10 +10,10 @@
 
 #include "Basic.hpp"
 
+#include "GM_Statue_structs.hpp"
 #include "VTSCommonUIExtension_classes.hpp"
 #include "Engine_structs.hpp"
 #include "STR_GamemodeWinInfo_structs.hpp"
-#include "GM_Statue_structs.hpp"
 
 
 SDK_NAMESPACE_START

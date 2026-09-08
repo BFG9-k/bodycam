@@ -10,13 +10,13 @@
 
 #include "Basic.hpp"
 
-#include "FFontStyle_structs.hpp"
+#include "ETransitionAnimation_structs.hpp"
+#include "EInputDeviceType_structs.hpp"
 #include "Engine_structs.hpp"
-#include "WBP_InteractableMenu_classes.hpp"
 #include "UMG_structs.hpp"
 #include "CoreUObject_structs.hpp"
-#include "EInputDeviceType_structs.hpp"
-#include "ETransitionAnimation_structs.hpp"
+#include "FFontStyle_structs.hpp"
+#include "WBP_InteractableMenu_classes.hpp"
 
 
 SDK_NAMESPACE_START

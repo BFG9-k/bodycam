@@ -10,8 +10,8 @@
 
 #include "Basic.hpp"
 
-#include "E_MappingsConflictMethod_structs.hpp"
 #include "E_KeymapSlot_structs.hpp"
+#include "E_MappingsConflictMethod_structs.hpp"
 
 
 SDK_NAMESPACE_START

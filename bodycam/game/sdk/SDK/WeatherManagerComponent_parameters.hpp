@@ -10,8 +10,8 @@
 
 #include "Basic.hpp"
 
-#include "S_RandomWeatherTransitionList_structs.hpp"
 #include "Engine_structs.hpp"
+#include "S_RandomWeatherTransitionList_structs.hpp"
 #include "S_WeatherWeight_structs.hpp"
 #include "S_MapWeatherConfig_structs.hpp"
 #include "S_DesiredWeatherState_structs.hpp"

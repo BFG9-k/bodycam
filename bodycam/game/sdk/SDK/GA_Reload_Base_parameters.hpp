@@ -11,8 +11,8 @@
 #include "Basic.hpp"
 
 #include "GameplayTags_structs.hpp"
-#include "F_CharacterWeaponMontage_structs.hpp"
 #include "GameplayAbilities_structs.hpp"
+#include "F_CharacterWeaponMontage_structs.hpp"
 #include "Engine_structs.hpp"
 #include "BAF_structs.hpp"
 

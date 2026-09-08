@@ -10220,6 +10220,31 @@ float ABodycamGameState::GetPhaseDuration() const
 }
 
 
+// Function Bodycam.BodycamGameState.GetRoundElapsedSeconds
+// (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
+// Parameters:
+// double                                  ReturnValue                                            (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+
+double ABodycamGameState::GetRoundElapsedSeconds() const
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BodycamGameState", "GetRoundElapsedSeconds");
+
+	Params::BodycamGameState_GetRoundElapsedSeconds Parms{};
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, &Parms);
+
+	Func->FunctionFlags = Flgs;
+
+	return Parms.ReturnValue;
+}
+
+
 // Function Bodycam.BodycamGameState.GetRoundRemainingTime
 // (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 // Parameters:
@@ -10436,6 +10461,56 @@ struct FBodycamTeamData ABodycamGameState::GetWinningTeam() const
 		Func = Class->GetFunction("BodycamGameState", "GetWinningTeam");
 
 	Params::BodycamGameState_GetWinningTeam Parms{};
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, &Parms);
+
+	Func->FunctionFlags = Flgs;
+
+	return Parms.ReturnValue;
+}
+
+
+// Function Bodycam.BodycamGameState.HasAnyPositiveScore
+// (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
+// Parameters:
+// bool                                    ReturnValue                                            (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+
+bool ABodycamGameState::HasAnyPositiveScore() const
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BodycamGameState", "HasAnyPositiveScore");
+
+	Params::BodycamGameState_HasAnyPositiveScore Parms{};
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, &Parms);
+
+	Func->FunctionFlags = Flgs;
+
+	return Parms.ReturnValue;
+}
+
+
+// Function Bodycam.BodycamGameState.HasTeamWithoutHumanPlayer
+// (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
+// Parameters:
+// bool                                    ReturnValue                                            (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+
+bool ABodycamGameState::HasTeamWithoutHumanPlayer() const
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BodycamGameState", "HasTeamWithoutHumanPlayer");
+
+	Params::BodycamGameState_HasTeamWithoutHumanPlayer Parms{};
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;

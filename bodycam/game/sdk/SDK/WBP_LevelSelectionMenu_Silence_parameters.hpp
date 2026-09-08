@@ -11,9 +11,9 @@
 #include "Basic.hpp"
 
 #include "SlateCore_structs.hpp"
-#include "FFooterBarButtonData_structs.hpp"
-#include "ETransitionAnimation_structs.hpp"
 #include "EInputDeviceType_structs.hpp"
+#include "ETransitionAnimation_structs.hpp"
+#include "FFooterBarButtonData_structs.hpp"
 
 
 SDK_NAMESPACE_START

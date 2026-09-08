@@ -50,6 +50,20 @@ void ABP_PerkProxy_C::ExecuteUbergraph_BP_PerkProxy(int32 EntryPoint)
 }
 
 
+// Function BP_PerkProxy.BP_PerkProxy_C.FailStartProxy
+// (BlueprintCallable, BlueprintEvent)
+
+void ABP_PerkProxy_C::FailStartProxy()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_PerkProxy_C", "FailStartProxy");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
 // Function BP_PerkProxy.BP_PerkProxy_C.GetRemainingCooldown
 // (Public, HasOutParams, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:

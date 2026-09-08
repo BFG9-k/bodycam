@@ -10,10 +10,10 @@
 
 #include "Basic.hpp"
 
-#include "Engine_structs.hpp"
-#include "WBP_ButtonBase_classes.hpp"
-#include "InputCore_structs.hpp"
 #include "EInputDeviceType_structs.hpp"
+#include "Engine_structs.hpp"
+#include "InputCore_structs.hpp"
+#include "WBP_ButtonBase_classes.hpp"
 #include "EWidgetStyleState_structs.hpp"
 
 
@@ -44,8 +44,8 @@ public:
 	void OnButtonUnhovered();
 	void SetupMappedKeys();
 	void UpdateButtonIcon(EInputDeviceType InputDeviceType);
-	void RefreshWidget();
 	void OnSetHighlightEffect(EWidgetStyleState HighlightState_0, bool bPlaySound);
+	void RefreshWidget();
 	void OnPressedBack(const struct FKeyEvent& KeyEvent);
 	void OnPressedSelect(const struct FKeyEvent& KeyEvent);
 	void PreConstruct(bool IsDesignTime);

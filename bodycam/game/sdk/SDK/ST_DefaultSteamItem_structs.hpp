@@ -10,13 +10,13 @@
 
 #include "Basic.hpp"
 
-#include "ItemQualityEnum_structs.hpp"
-#include "Engine_structs.hpp"
 #include "EN_ShopItemType_structs.hpp"
-#include "ShopItemPromoRulesEnum_structs.hpp"
-#include "CoreUObject_structs.hpp"
-#include "EN_ShopItemPrice_structs.hpp"
+#include "Engine_structs.hpp"
 #include "LoadoutAdvantagesDisavantagesEnum_structs.hpp"
+#include "CoreUObject_structs.hpp"
+#include "ShopItemPromoRulesEnum_structs.hpp"
+#include "EN_ShopItemPrice_structs.hpp"
+#include "ItemQualityEnum_structs.hpp"
 
 
 SDK_NAMESPACE_START

@@ -12,8 +12,8 @@
 
 #include "Engine_structs.hpp"
 #include "Engine_classes.hpp"
-#include "AnimBP_Zombie_structs.hpp"
 #include "AnimGraphRuntime_structs.hpp"
+#include "AnimBP_Zombie_structs.hpp"
 #include "CoreUObject_structs.hpp"
 
 

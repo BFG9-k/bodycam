@@ -38,6 +38,7 @@ public:
 public:
 	void BndEvt__BP_PerkProxy_BP_ItemSkinBuilderComponent_K2Node_ComponentBoundEvent_0_OnItemInitializationComplete__DelegateSignature();
 	void ExecuteUbergraph_BP_PerkProxy(int32 EntryPoint);
+	void FailStartProxy();
 	float GetRemainingCooldown();
 	void HandleBlinking();
 	void HandleDroneDeath(class AActor* OwningActor);

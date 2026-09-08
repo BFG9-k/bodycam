@@ -14,6 +14,10 @@ void features::c_esp::process( SDK::UCanvas* Canvas )
   if ( !local_controller )
     return;
 
+  SDK::ABodycam_Player_C* const local_player = static_cast< SDK::ABodycam_Player_C* >( SDK::UWorld::GetWorld( )->OwningGameInstance->LocalPlayers[ 0 ]->PlayerController->Character );
+  if ( !local_player )
+    return;
+
   for ( SDK::AActor* current_actor : world->PersistentLevel->Actors )
   {
     if ( !current_actor )

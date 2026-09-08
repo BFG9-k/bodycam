@@ -10,10 +10,10 @@
 
 #include "Basic.hpp"
 
-#include "Engine_structs.hpp"
 #include "E_Team_structs.hpp"
-#include "PC_BodycamBase_classes.hpp"
 #include "EN_ZombieRules_structs.hpp"
+#include "Engine_structs.hpp"
+#include "PC_BodycamBase_classes.hpp"
 #include "GameMode_structs.hpp"
 #include "EN_WaveClass_structs.hpp"
 

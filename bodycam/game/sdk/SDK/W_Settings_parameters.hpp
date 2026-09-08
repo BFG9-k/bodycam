@@ -11,10 +11,10 @@
 #include "Basic.hpp"
 
 #include "SlateCore_structs.hpp"
-#include "E_AnimOnCreate_structs.hpp"
 #include "UMG_structs.hpp"
 #include "CoreUObject_structs.hpp"
 #include "Engine_structs.hpp"
+#include "E_AnimOnCreate_structs.hpp"
 
 
 SDK_NAMESPACE_START

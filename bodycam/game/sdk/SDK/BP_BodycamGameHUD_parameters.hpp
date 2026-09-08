@@ -10,13 +10,13 @@
 
 #include "Basic.hpp"
 
+#include "E_UpscalingMethods_structs.hpp"
 #include "JsonUtilities_structs.hpp"
+#include "E_AntiAliasingMethods_structs.hpp"
 #include "Engine_structs.hpp"
 #include "F_SettingSelectorValue_structs.hpp"
-#include "E_UpscalingMethods_structs.hpp"
-#include "E_AntiAliasingMethods_structs.hpp"
-#include "CoreUObject_structs.hpp"
 #include "E_UpscalingQualityLevels_structs.hpp"
+#include "CoreUObject_structs.hpp"
 #include "Bodycam_structs.hpp"
 
 

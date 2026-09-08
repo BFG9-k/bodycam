@@ -11,8 +11,8 @@
 #include "Basic.hpp"
 
 #include "Engine_structs.hpp"
-#include "GA_Character_Aim_classes.hpp"
 #include "GameplayAbilities_structs.hpp"
+#include "GA_Character_Aim_classes.hpp"
 
 
 SDK_NAMESPACE_START

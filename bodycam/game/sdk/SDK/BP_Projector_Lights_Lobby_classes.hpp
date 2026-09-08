@@ -10,12 +10,12 @@
 
 #include "Basic.hpp"
 
+#include "EN_ZombieRules_structs.hpp"
 #include "Engine_structs.hpp"
 #include "Engine_classes.hpp"
 #include "CoreUObject_structs.hpp"
-#include "E_ProjectorInputs_structs.hpp"
-#include "EN_ZombieRules_structs.hpp"
 #include "EN_WaveClass_structs.hpp"
+#include "E_ProjectorInputs_structs.hpp"
 
 
 SDK_NAMESPACE_START

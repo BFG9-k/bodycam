@@ -10,10 +10,10 @@
 
 #include "Basic.hpp"
 
-#include "SlateCore_structs.hpp"
 #include "FFontStyle_structs.hpp"
-#include "EWidgetStyleState_structs.hpp"
 #include "CoreUObject_structs.hpp"
+#include "SlateCore_structs.hpp"
+#include "EWidgetStyleState_structs.hpp"
 
 
 SDK_NAMESPACE_START

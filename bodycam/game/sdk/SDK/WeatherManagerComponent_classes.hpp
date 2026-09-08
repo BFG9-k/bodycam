@@ -10,10 +10,10 @@
 
 #include "Basic.hpp"
 
-#include "S_RandomWeatherTransitionList_structs.hpp"
+#include "S_DesiredWeatherState_structs.hpp"
 #include "Engine_structs.hpp"
 #include "CoreUObject_structs.hpp"
-#include "S_DesiredWeatherState_structs.hpp"
+#include "S_RandomWeatherTransitionList_structs.hpp"
 #include "HostMigrationSystem_classes.hpp"
 
 

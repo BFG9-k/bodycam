@@ -10,9 +10,9 @@
 
 #include "Basic.hpp"
 
+#include "CoreUObject_structs.hpp"
 #include "FTransitionAnimationMapping_structs.hpp"
 #include "UMG_structs.hpp"
-#include "CoreUObject_structs.hpp"
 #include "Bodycam_structs.hpp"
 #include "SteamCorePro_structs.hpp"
 #include "SlateCore_structs.hpp"

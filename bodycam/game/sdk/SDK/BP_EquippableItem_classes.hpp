@@ -10,8 +10,8 @@
 
 #include "Basic.hpp"
 
-#include "STR_LoadoutWeapon_structs.hpp"
 #include "Engine_structs.hpp"
+#include "STR_LoadoutWeapon_structs.hpp"
 #include "STR_DropData_structs.hpp"
 #include "Bodycam_structs.hpp"
 #include "Bodycam_classes.hpp"
