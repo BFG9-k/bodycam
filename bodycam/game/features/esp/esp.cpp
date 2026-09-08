@@ -14,7 +14,7 @@ void features::c_esp::process( SDK::UCanvas* Canvas )
   if ( !local_controller )
     return;
 
-  for ( const auto& current_actor : world->PersistentLevel->Actors )
+  for ( SDK::AActor* current_actor : world->PersistentLevel->Actors )
   {
     if ( !current_actor )
       continue;
@@ -26,10 +26,10 @@ void features::c_esp::process( SDK::UCanvas* Canvas )
     if ( !player )
       continue;
 
-    if ( !player->IsCharacterAlive( ) )
+    if ( player == local_controller->AcknowledgedPawn )
       continue;
 
-    if ( player == local_controller->AcknowledgedPawn )
+    if ( !player->IsCharacterAlive( ) )
       continue;
 
     const SDK::FVector actor_location = current_actor->RootComponent->RelativeLocation;
