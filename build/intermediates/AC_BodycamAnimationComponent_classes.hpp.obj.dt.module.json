@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "..\\build\\intermediates\\AC_BodycamAnimationComponent_classes.obj",
+            "outputs": [
+                "..\\build\\intermediates\\AC_BodycamAnimationComponent_classes.hpp.obj.dt.module.json",
+                "..\\build\\intermediates\\AC_BodycamAnimationComponent_classes.hpp.obj.dt.d.json"
+            ],
+            "requires": []
+        }
+    ]
+}

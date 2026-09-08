@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "..\\build\\intermediates\\Assertions.obj",
+            "outputs": [
+                "..\\build\\intermediates\\Assertions.inl.obj.dt.module.json",
+                "..\\build\\intermediates\\Assertions.inl.obj.dt.d.json"
+            ],
+            "requires": []
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "..\\build\\intermediates\\NameCollisions.obj",
+            "outputs": [
+                "..\\build\\intermediates\\NameCollisions.inl.obj.dt.module.json",
+                "..\\build\\intermediates\\NameCollisions.inl.obj.dt.d.json"
+            ],
+            "requires": []
+        }
+    ]
+}

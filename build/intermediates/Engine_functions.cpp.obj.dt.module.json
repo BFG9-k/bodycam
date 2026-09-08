@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "..\\build\\intermediates\\Engine_functions.obj",
+            "outputs": [
+                "..\\build\\intermediates\\Engine_functions.cpp.obj.dt.module.json",
+                "..\\build\\intermediates\\Engine_functions.cpp.obj.dt.d.json"
+            ],
+            "requires": []
+        }
+    ]
+}
