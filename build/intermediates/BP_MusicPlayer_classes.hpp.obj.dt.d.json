@@ -162,7 +162,6 @@
             "c:\\users\\admin\\source\\repos\\bodycam\\bodycam\\game\\sdk\\utfn.hpp",
             "c:\\users\\admin\\source\\repos\\bodycam\\bodycam\\game\\sdk\\assertions.inl",
             "c:\\users\\admin\\source\\repos\\bodycam\\bodycam\\game\\sdk\\namecollisions.inl",
-            "c:\\users\\admin\\source\\repos\\bodycam\\bodycam\\game\\sdk\\sdk\\st_bodycamsoundtrack_structs.hpp",
             "c:\\users\\admin\\source\\repos\\bodycam\\bodycam\\game\\sdk\\sdk\\engine_structs.hpp",
             "c:\\users\\admin\\source\\repos\\bodycam\\bodycam\\game\\sdk\\sdk\\coreonline_structs.hpp",
             "c:\\users\\admin\\source\\repos\\bodycam\\bodycam\\game\\sdk\\sdk\\coreuobject_structs.hpp",
@@ -186,7 +185,8 @@
             "c:\\users\\admin\\source\\repos\\bodycam\\bodycam\\game\\sdk\\sdk\\iriscore_classes.hpp",
             "c:\\users\\admin\\source\\repos\\bodycam\\bodycam\\game\\sdk\\sdk\\meshdescription_classes.hpp",
             "c:\\users\\admin\\source\\repos\\bodycam\\bodycam\\game\\sdk\\sdk\\netcore_classes.hpp",
-            "c:\\users\\admin\\source\\repos\\bodycam\\bodycam\\game\\sdk\\sdk\\packethandler_classes.hpp"
+            "c:\\users\\admin\\source\\repos\\bodycam\\bodycam\\game\\sdk\\sdk\\packethandler_classes.hpp",
+            "c:\\users\\admin\\source\\repos\\bodycam\\bodycam\\game\\sdk\\sdk\\st_bodycamsoundtrack_structs.hpp"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

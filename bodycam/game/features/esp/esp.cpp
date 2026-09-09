@@ -6,11 +6,11 @@ void features::c_esp::process( SDK::UCanvas* Canvas )
   if ( !world )
     return;
 
-  SDK::UGameInstance* const game_istance = world->OwningGameInstance;
-  if ( !game_istance || !game_istance->LocalPlayers[ 0 ] )
+  SDK::UGameInstance* const game_instance = world->OwningGameInstance;
+  if ( !game_instance || !game_instance->LocalPlayers[ 0 ] )
     return;
 
-  SDK::APlayerController* const local_controller = game_istance->LocalPlayers[ 0 ]->PlayerController;
+  SDK::APlayerController* const local_controller = game_instance->LocalPlayers[ 0 ]->PlayerController;
   if ( !local_controller )
     return;
 
@@ -18,15 +18,27 @@ void features::c_esp::process( SDK::UCanvas* Canvas )
   if ( !local_player )
     return;
 
+  local_player->AimingBloked = false;
+  local_player->SetReplicateMovement( false );
+  local_player->SetReplicates( false );
+  local_player->SetActorHiddenInGame( true );
+
+  SDK::UActorComponent* const movement_component = local_controller->AcknowledgedPawn->GetComponentByClass( SDK::UCharacterMovementComponent::StaticClass( ) );
+  if ( movement_component )
+  {
+    auto character_movement = static_cast< SDK::UCharacterMovementComponent* >( movement_component );
+    character_movement->MaxWalkSpeed = 10000.f;
+  }
+
   for ( SDK::AActor* current_actor : world->PersistentLevel->Actors )
   {
     if ( !current_actor )
       continue;
 
-    if ( !current_actor->IsA( SDK::ABodycamCharacter::StaticClass( ) ) )
+    if ( !current_actor->IsA( SDK::ABodycam_Player_C::StaticClass( ) ) )
       continue;
 
-    SDK::ABodycamCharacter* const player = static_cast< SDK::ABodycamCharacter* >( current_actor );
+    SDK::ABodycam_Player_C* const player = static_cast< SDK::ABodycam_Player_C* >( current_actor );
     if ( !player )
       continue;
 
@@ -56,7 +68,7 @@ void features::c_esp::process( SDK::UCanvas* Canvas )
 
       if ( player->PlayerState )
       {
-        const SDK::FString player_name = player->PlayerState->GetPlayerName( );
+        const SDK::FString player_name = player->PlayerState->PlayerNamePrivate;
 
         const SDK::FVector2D text_postition = { top_screen.X, top_screen.Y - 15.f };
         const SDK::FLinearColor text_color = { 1.f, 1.f, 1.f, 1.f };
@@ -68,7 +80,7 @@ void features::c_esp::process( SDK::UCanvas* Canvas )
       {
         const float current_hp = player->CharacterSet->Health.CurrentValue;
         const float max_hp = player->CharacterSet->MaxHealth.CurrentValue;
-        
+
         float hp_percentage = current_hp / max_hp; hp_percentage = max( 0.0f, min( 1.0f, hp_percentage ) );
 
         SDK::FLinearColor fill_color;
@@ -77,10 +89,16 @@ void features::c_esp::process( SDK::UCanvas* Canvas )
         else
           fill_color = { 1.0f, hp_percentage * 2.0f, 0.0f, 1.0f };
 
-        Canvas->K2_DrawLine( { box_position.X - 4.0f, box_position.Y }, { box_position.X - 4.0f, box_position.Y + box_size.Y }, 2.0f, { 0.2f, 0.2f, 0.2f, 1.0f} );     
-  
+        Canvas->K2_DrawLine( { box_position.X - 4.0f, box_position.Y }, { box_position.X - 4.0f, box_position.Y + box_size.Y }, 2.0f, { 0.2f, 0.2f, 0.2f, 1.0f } );
+
         const float fill_height = ( ( box_position.Y + box_size.Y ) - box_position.Y ) * hp_percentage;
         Canvas->K2_DrawLine( { box_position.X - 4.0f, ( box_position.Y + box_size.Y ) - fill_height }, { box_position.X - 4.0f, box_position.Y + box_size.Y }, 2.0f, fill_color );
+      }
+
+      if ( ( GetAsyncKeyState( VK_MENU ) & 0x8000 ) != 0 )
+      {
+        const SDK::FVector target_location = local_player->K2_GetActorLocation( ) + ( local_controller->GetActorForwardVector( ) * 200.0f );
+        player->K2_SetActorRelativeLocation( target_location, false, nullptr, true );
       }
     }
   }

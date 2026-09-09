@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "..\\build\\intermediates\\Bodycam_Player_parameters.obj",
+            "outputs": [
+                "..\\build\\intermediates\\Bodycam_Player_parameters.hpp.obj.dt.module.json",
+                "..\\build\\intermediates\\Bodycam_Player_parameters.hpp.obj.dt.d.json"
+            ],
+            "requires": []
+        }
+    ]
+}

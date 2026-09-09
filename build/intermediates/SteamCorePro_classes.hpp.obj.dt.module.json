@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "..\\build\\intermediates\\SteamCorePro_classes.obj",
+            "outputs": [
+                "..\\build\\intermediates\\SteamCorePro_classes.hpp.obj.dt.module.json",
+                "..\\build\\intermediates\\SteamCorePro_classes.hpp.obj.dt.d.json"
+            ],
+            "requires": []
+        }
+    ]
+}

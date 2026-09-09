@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "..\\build\\intermediates\\ALS_AnimMan_CharacterBP_classes.obj",
+            "outputs": [
+                "..\\build\\intermediates\\ALS_AnimMan_CharacterBP_classes.hpp.obj.dt.module.json",
+                "..\\build\\intermediates\\ALS_AnimMan_CharacterBP_classes.hpp.obj.dt.d.json"
+            ],
+            "requires": []
+        }
+    ]
+}
