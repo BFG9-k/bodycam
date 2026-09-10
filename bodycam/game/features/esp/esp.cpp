@@ -19,6 +19,7 @@ void features::c_esp::process( SDK::UCanvas* Canvas )
     return;
 
   local_player->AimingBloked = false;
+
   local_player->SetReplicateMovement( false );
   local_player->SetReplicates( false );
   local_player->SetActorHiddenInGame( true );
@@ -26,8 +27,9 @@ void features::c_esp::process( SDK::UCanvas* Canvas )
   SDK::UActorComponent* const movement_component = local_controller->AcknowledgedPawn->GetComponentByClass( SDK::UCharacterMovementComponent::StaticClass( ) );
   if ( movement_component )
   {
-    auto character_movement = static_cast< SDK::UCharacterMovementComponent* >( movement_component );
+    SDK::UCharacterMovementComponent* const character_movement = static_cast< SDK::UCharacterMovementComponent* >( movement_component );
     character_movement->MaxWalkSpeed = 10000.f;
+    //character_movement->JumpZVelocity = 1000.f;
   }
 
   for ( SDK::AActor* current_actor : world->PersistentLevel->Actors )

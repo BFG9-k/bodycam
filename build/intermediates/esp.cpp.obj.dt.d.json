@@ -372,15 +372,7 @@
             "c:\\users\\admin\\source\\repos\\bodycam\\bodycam\\game\\sdk\\sdk\\mantletype_structs.hpp",
             "c:\\users\\admin\\source\\repos\\bodycam\\bodycam\\game\\sdk\\sdk\\mantle_asset_structs.hpp",
             "c:\\users\\admin\\source\\repos\\bodycam\\bodycam\\game\\sdk\\sdk\\e_emote_structs.hpp",
-            "c:\\users\\admin\\source\\repos\\bodycam\\bodycam\\game\\sdk\\sdk\\gamemode_structs.hpp",
-            "c:\\users\\admin\\source\\repos\\bodycam\\bodycam\\game\\sdk\\sdk\\bp_fpv_drone_kamikaze_classes.hpp",
-            "c:\\users\\admin\\source\\repos\\bodycam\\bodycam\\game\\sdk\\sdk\\bp_fpv_drone_classes.hpp",
-            "c:\\users\\admin\\source\\repos\\bodycam\\bodycam\\game\\sdk\\sdk\\imu_data_structs.hpp",
-            "c:\\users\\admin\\source\\repos\\bodycam\\bodycam\\game\\sdk\\sdk\\droneflightmode_structs.hpp",
-            "c:\\users\\admin\\source\\repos\\bodycam\\bodycam\\game\\sdk\\sdk\\bp_perk_base_classes.hpp",
-            "c:\\users\\admin\\source\\repos\\bodycam\\bodycam\\game\\sdk\\sdk\\str_loadoutweapon_structs.hpp",
-            "c:\\users\\admin\\source\\repos\\bodycam\\bodycam\\game\\sdk\\sdk\\droneratespresetmode_structs.hpp",
-            "c:\\users\\admin\\source\\repos\\bodycam\\bodycam\\game\\sdk\\sdk\\dronehudmode_structs.hpp"
+            "c:\\users\\admin\\source\\repos\\bodycam\\bodycam\\game\\sdk\\sdk\\gamemode_structs.hpp"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []
