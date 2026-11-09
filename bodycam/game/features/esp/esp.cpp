@@ -17,21 +17,7 @@ void features::c_esp::process( SDK::UCanvas* Canvas )
   SDK::ABodycam_Player_C* const local_player = static_cast< SDK::ABodycam_Player_C* >( SDK::UWorld::GetWorld( )->OwningGameInstance->LocalPlayers[ 0 ]->PlayerController->Character );
   if ( !local_player )
     return;
-
-  local_player->AimingBloked = false;
-
-  local_player->SetReplicateMovement( false );
-  local_player->SetReplicates( false );
-  local_player->SetActorHiddenInGame( true );
-
-  SDK::UActorComponent* const movement_component = local_controller->AcknowledgedPawn->GetComponentByClass( SDK::UCharacterMovementComponent::StaticClass( ) );
-  if ( movement_component )
-  {
-    SDK::UCharacterMovementComponent* const character_movement = static_cast< SDK::UCharacterMovementComponent* >( movement_component );
-    character_movement->MaxWalkSpeed = 10000.f;
-    //character_movement->JumpZVelocity = 1000.f;
-  }
-
+  
   for ( SDK::AActor* current_actor : world->PersistentLevel->Actors )
   {
     if ( !current_actor )
@@ -95,12 +81,6 @@ void features::c_esp::process( SDK::UCanvas* Canvas )
 
         const float fill_height = ( ( box_position.Y + box_size.Y ) - box_position.Y ) * hp_percentage;
         Canvas->K2_DrawLine( { box_position.X - 4.0f, ( box_position.Y + box_size.Y ) - fill_height }, { box_position.X - 4.0f, box_position.Y + box_size.Y }, 2.0f, fill_color );
-      }
-
-      if ( ( GetAsyncKeyState( VK_MENU ) & 0x8000 ) != 0 )
-      {
-        const SDK::FVector target_location = local_player->K2_GetActorLocation( ) + ( local_controller->GetActorForwardVector( ) * 200.0f );
-        player->K2_SetActorRelativeLocation( target_location, false, nullptr, true );
       }
     }
   }
